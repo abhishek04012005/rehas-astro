@@ -1,90 +1,90 @@
 .hero {
-  position: relative;
-  padding: 4rem 0 3rem;
-  overflow: hidden;
-  background: linear-gradient(135deg, rgba(212, 165, 217, 0.16), rgba(255, 255, 255, 0));
+    position: relative;
+    padding: 4rem 0 3rem;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(212, 165, 217, 0.16), rgba(255, 255, 255, 0));
 }
 
 .heroContent {
-  position: relative;
-  z-index: 2;
-  display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  gap: 2.2rem;
-  align-items: center;
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 2.2rem;
+    align-items: center;
 }
 
 .eyebrow {
-  display: inline-flex;
-  margin-bottom: 0.8rem;
-  padding: 0.45rem 0.8rem;
-  border-radius: 999px;
-  background: rgba(86, 0, 103, 0.09);
-  color: var(--primary);
-  font-weight: 700;
-  font-size: 0.78rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+    display: inline-flex;
+    margin-bottom: 0.8rem;
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(86, 0, 103, 0.09);
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
 
 .heroText h1 {
-  font-size: clamp(2.6rem, 4vw, 4.2rem);
-  margin-bottom: 1.1rem;
-  color: var(--foreground);
-  line-height: 1.04;
-  letter-spacing: -0.02em;
+    font-size: clamp(2.6rem, 4vw, 4.2rem);
+    margin-bottom: 1.1rem;
+    color: var(--foreground);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
 }
 
 .heroText p,
 .heroSubtitle {
-  color: var(--text-muted);
-  line-height: 1.85;
-  max-width: 720px;
+    color: var(--text-muted);
+    line-height: 1.85;
+    max-width: 720px;
 }
 
 .heroSummary {
-  display: grid;
-  gap: 0.8rem;
-  margin-top: 1.2rem;
-  color: var(--text-light);
+    display: grid;
+    gap: 0.8rem;
+    margin-top: 1.2rem;
+    color: var(--text-light);
 }
 
 .heroSummary p {
-  margin: 0;
+    margin: 0;
 }
 
 .heroActions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.8rem;
 }
 
 .heroBadge {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.7rem 1rem;
-  margin-bottom: 1rem;
-  border-radius: 999px;
-  background: rgba(86, 0, 103, 0.12);
-  color: var(--primary);
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  box-shadow: inset 0 0 0 1px rgba(86, 0, 103, 0.08);
+    display: inline-flex;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 999px;
+    background: rgba(86, 0, 103, 0.12);
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    box-shadow: inset 0 0 0 1px rgba(86, 0, 103, 0.08);
 }
 
 .heroVisual {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .heroImage {
-  width: 100%;
-  max-width: 520px;
-  border-radius: 28px;
-  box-shadow: 0 24px 50px rgba(86, 0, 103, 0.16);
-  border: 1px solid rgba(146, 72, 122, 0.16);
+    width: 100%;
+    max-width: 520px;
+    border-radius: 28px;
+    box-shadow: 0 24px 50px rgba(86, 0, 103, 0.16);
+    border: 1px solid rgba(146, 72, 122, 0.16);
 }
 
 .infoSection,
@@ -94,14 +94,14 @@
 .splitSection,
 .experienceSection,
 .detailsSection {
-  padding: 2.2rem 0;
+    padding: 2.2rem 0;
 }
 
 .splitContent {
-  display: grid;
-  grid-template-columns: 0.92fr 1.08fr;
-  gap: 1.5rem;
-  align-items: stretch;
+    display: grid;
+    grid-template-columns: 0.92fr 1.08fr;
+    gap: 1.5rem;
+    align-items: stretch;
 }
 
 .splitCard,
@@ -110,51 +110,51 @@
 .ctaCard,
 .consultCard,
 .card {
-  background: linear-gradient(145deg, rgba(255,255,255,0.97), rgba(250, 245, 252, 0.95));
-  border: 1px solid rgba(86, 0, 103, 0.12);
-  border-radius: 28px;
-  padding: 1.75rem;
-  box-shadow: 0 20px 42px rgba(23, 23, 23, 0.06);
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.97), rgba(250, 245, 252, 0.95));
+    border: 1px solid rgba(86, 0, 103, 0.12);
+    border-radius: 28px;
+    padding: 1.75rem;
+    box-shadow: 0 20px 42px rgba(23, 23, 23, 0.06);
 }
 
 .splitCard {
-  display: grid;
-  gap: 1rem;
+    display: grid;
+    gap: 1rem;
 }
 
 .splitCardSecondary {
-  display: grid;
-  gap: 1rem;
+    display: grid;
+    gap: 1rem;
 }
 
 .splitCardSecondary h3,
 .processCard h4,
 .detailPoint h4 {
-  color: var(--primary);
-  margin-bottom: 0.6rem;
+    color: var(--primary);
+    margin-bottom: 0.6rem;
 }
 
 .sectionHeaderGrid {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 1.5rem;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 .sectionSubtext {
-  color: var(--text-muted);
-  line-height: 1.75;
+    color: var(--text-muted);
+    line-height: 1.75;
 }
 
 .processGrid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
-  margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
 }
 
 .processCard h4 {
-  margin-bottom: 0.7rem;
+    margin-bottom: 0.7rem;
 }
 
 .processCard p,
@@ -162,63 +162,63 @@
 .splitPoint p,
 .ctaCard p,
 .consultCard p {
-  color: var(--text-muted);
-  line-height: 1.8;
+    color: var(--text-muted);
+    line-height: 1.8;
 }
 
 .sectionHeading {
-  max-width: 760px;
-  margin: 0 0 1.5rem;
+    max-width: 760px;
+    margin: 0 0 1.5rem;
 }
 
 .detailsGrid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.35rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.35rem;
 }
 
 .detailExplanation {
-  display: grid;
-  gap: 1rem;
-  margin-top: 1.2rem;
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.2rem;
 }
 
 .detailPoint {
-  padding: 1rem;
-  background: rgba(86, 0, 103, 0.04);
-  border-radius: 18px;
-  border: 1px solid rgba(86, 0, 103, 0.06);
+    padding: 1rem;
+    background: rgba(86, 0, 103, 0.04);
+    border-radius: 18px;
+    border: 1px solid rgba(86, 0, 103, 0.06);
 }
 
 .detailPoint h4 {
-  font-size: 1rem;
-  margin-bottom: 0.45rem;
+    font-size: 1rem;
+    margin-bottom: 0.45rem;
 }
 
 .splitPoint h3 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .splitPoint {
-  background: rgba(255,255,255,0.96);
-  border: 1px solid rgba(146, 72, 122, 0.12);
-  border-radius: 20px;
-  padding: 1.2rem;
-  box-shadow: 0 12px 28px rgba(86, 0, 103, 0.06);
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(146, 72, 122, 0.12);
+    border-radius: 20px;
+    padding: 1.2rem;
+    box-shadow: 0 12px 28px rgba(86, 0, 103, 0.06);
 }
 
 .ctaCard,
 .consultCard {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .ctaCard h2,
 .consultCard h2 {
-  font-size: clamp(1.6rem, 2.2vw, 2.4rem);
+    font-size: clamp(1.6rem, 2.2vw, 2.4rem);
 }
 
 .infoPanel p,
@@ -226,189 +226,191 @@
 .benefitCard p,
 .ctaCard p,
 .consultCard p {
-  color: var(--text-muted);
-  line-height: 1.8;
+    color: var(--text-muted);
+    line-height: 1.8;
 }
 
 .infoPanel ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0;
-  display: grid;
-  gap: 0.6rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: grid;
+    gap: 0.6rem;
 }
 
 .infoPanel li {
-  position: relative;
-  padding-left: 1rem;
-  color: var(--text-light);
+    position: relative;
+    padding-left: 1rem;
+    color: var(--text-light);
 }
 
 .infoPanel li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: var(--primary);
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
 }
 
-.processItem + .processItem {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(86, 0, 103, 0.12);
+.processItem+.processItem {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(86, 0, 103, 0.12);
 }
 
 .processItem h4,
 .benefitCard h3 {
-  font-size: 1rem;
-  margin-bottom: 0.35rem;
-  color: var(--foreground);
+    font-size: 1rem;
+    margin-bottom: 0.35rem;
+    color: var(--foreground);
 }
 
 .benefitsGrid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
 }
 
 .ctaCard,
 .consultCard {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 @media (max-width: 900px) {
-  .heroContent,
-  .splitContent,
-  .sectionHeaderGrid,
-  .processGrid,
-  .detailsGrid,
-  .benefitsGrid {
-    grid-template-columns: 1fr;
-  }
 
-  .hero {
-    padding: 3rem 0 1.5rem;
-  }
+    .heroContent,
+    .splitContent,
+    .sectionHeaderGrid,
+    .processGrid,
+    .detailsGrid,
+    .benefitsGrid {
+        grid-template-columns: 1fr;
+    }
 
-  .heroText h1 {
-    font-size: clamp(2.2rem, 7vw, 3rem);
-  }
+    .hero {
+        padding: 3rem 0 1.5rem;
+    }
 
-  .ctaCard,
-  .consultCard {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+    .heroText h1 {
+        font-size: clamp(2.2rem, 7vw, 3rem);
+    }
+
+    .ctaCard,
+    .consultCard {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 .sectionHeading {
-  max-width: 760px;
-  margin: 1rem 0 1.2rem;
+    max-width: 760px;
+    margin: 1rem 0 1.2rem;
 }
 
 .detailsGrid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.4rem;
-  padding: 0 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem;
+    padding: 0 0 3rem;
 }
 
 .card {
-  background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(248,239,249,0.95));
-  border: 1px solid rgba(86, 0, 103, 0.12);
-  border-radius: 24px;
-  padding: 1.4rem;
-  box-shadow: 0 16px 36px rgba(23, 23, 23, 0.05);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(248, 239, 249, 0.95));
+    border: 1px solid rgba(86, 0, 103, 0.12);
+    border-radius: 24px;
+    padding: 1.4rem;
+    box-shadow: 0 16px 36px rgba(23, 23, 23, 0.05);
 }
 
 .card h2 {
-  font-size: 1.2rem;
-  margin-bottom: 0.6rem;
-  color: var(--foreground);
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+    color: var(--foreground);
 }
 
 .card p {
-  color: var(--text-muted);
-  line-height: 1.7;
-  margin-bottom: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 0.85rem;
 }
 
 .card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.5rem;
 }
 
 .card li {
-  position: relative;
-  padding-left: 1rem;
-  color: var(--text-light);
+    position: relative;
+    padding-left: 1rem;
+    color: var(--text-light);
 }
 
 .card li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: var(--primary);
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
 }
 
 .notFound {
-  min-height: 60vh;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  gap: 1rem;
+    min-height: 60vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 1rem;
 }
 
 @media (max-width: 900px) {
-  .heroContent,
-  .infoGrid,
-  .benefitsGrid {
-    grid-template-columns: 1fr;
-  }
 
-  .hero {
-    padding: 3rem 0 1.5rem;
-  }
+    .heroContent,
+    .infoGrid,
+    .benefitsGrid {
+        grid-template-columns: 1fr;
+    }
 
-  .heroText h1 {
-    font-size: clamp(2.2rem, 7vw, 3rem);
-  }
+    .hero {
+        padding: 3rem 0 1.5rem;
+    }
 
-  .detailsGrid {
-    grid-template-columns: 1fr;
-  }
+    .heroText h1 {
+        font-size: clamp(2.2rem, 7vw, 3rem);
+    }
 
-  .ctaCard,
-  .consultCard {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+    .detailsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .ctaCard,
+    .consultCard {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 680px) {
-  .hero {
-    padding: 2.8rem 0 1.2rem;
-  }
+    .hero {
+        padding: 2.8rem 0 1.2rem;
+    }
 
-  .heroActions {
-    flex-direction: column;
-  }
+    .heroActions {
+        flex-direction: column;
+    }
 
-  .splitCard,
-  .splitCardSecondary,
-  .processCard,
-  .card,
-  .ctaCard,
-  .consultCard {
-    padding: 1.1rem;
-  }
+    .splitCard,
+    .splitCardSecondary,
+    .processCard,
+    .card,
+    .ctaCard,
+    .consultCard {
+        padding: 1.1rem;
+    }
 
-  .processGrid {
-    gap: 0.9rem;
-  }
+    .processGrid {
+        gap: 0.9rem;
+    }
 }
