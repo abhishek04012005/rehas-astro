@@ -1,0 +1,959 @@
+[
+  {
+    "id": "vedic-astro",
+    "slug": "vedic-astro",
+    "title": "Vedic Astrology",
+    "description": "Deep insight into your birth chart, planetary strengths, and the guidance needed for clarity in life, career, and relationships.",
+    "highlights": [
+      {
+        "title": "Free Kundli Report",
+        "description": "Detailed insight about free kundli report."
+      },
+      {
+        "title": "Mangal Dosh",
+        "description": "Detailed insight about mangal dosh."
+      },
+      {
+        "title": "Kal Sarp Dosh",
+        "description": "Detailed insight about kal sarp dosh."
+      },
+      {
+        "title": "Pitra Dosh",
+        "description": "Detailed insight about pitra dosh."
+      },
+      {
+        "title": "Shani Sade Sati",
+        "description": "Detailed insight about shani sade sati."
+      },
+      {
+        "title": "Gem Stones",
+        "description": "Detailed insight about gem stones."
+      },
+      {
+        "title": "Horoscope (Current Year)",
+        "description": "Detailed insight about horoscope (current year)."
+      }
+    ],
+    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23f8eff9'/%3E%3Ccircle cx='680' cy='180' r='140' fill='%23560067' fill-opacity='0.12'/%3E%3Ccircle cx='250' cy='430' r='180' fill='%23d4a5d9' fill-opacity='0.2'/%3E%3Crect x='140' y='180' width='320' height='220' rx='28' fill='white'/%3E%3Cpath d='M230 360c40-90 120-140 210-140' stroke='%23560067' stroke-width='10' stroke-linecap='round'/%3E%3Ccircle cx='425' cy='220' r='38' fill='%23560067'/%3E%3Ctext x='180' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EVedic Astrology%3C/text%3E%3C/svg%3E",
+    "imageAlt": "Vedic astrology chart illustration",
+    "detailSections": [
+      {
+        "title": "Core Vedic Astrology Services",
+        "intro": "Foundational astrology guidance for self-understanding, growth, and practical decision-making.",
+        "items": [
+          {
+            "title": "Free Kundli Report",
+            "description": "Detailed insight about free kundli report."
+          },
+          {
+            "title": "Mangal Dosh",
+            "description": "Detailed insight about mangal dosh."
+          },
+          {
+            "title": "Kal Sarp Dosh",
+            "description": "Detailed insight about kal sarp dosh."
+          },
+          {
+            "title": "Pitra Dosh",
+            "description": "Detailed insight about pitra dosh."
+          },
+          {
+            "title": "Shani Sade Sati",
+            "description": "Detailed insight about shani sade sati."
+          },
+          {
+            "title": "Gem Stones",
+            "description": "Detailed insight about gem stones."
+          },
+          {
+            "title": "Horoscope (Current Year)",
+            "description": "Detailed insight about horoscope (current year)."
+          }
+        ]
+      }
+    ],
+    "primaryCta": {
+      "label": "View Details",
+      "href": "/services/vedic-astro"
+    },
+    "secondaryCta": {
+      "label": "Call with Expert",
+      "href": "tel:+919517973153"
+    },
+    "heroSummary": [
+      "A premium astrology experience built to answer your most important questions with clarity, timing, and real guidance.",
+      "Discover how your chart influences your next year, your relationships, and the choices that matter most."
+    ],
+    "heroBadge": "Deep Service Review",
+    "overviewIntro": {
+      "eyebrow": "What you will explore",
+      "title": "Full clarity across every major life area.",
+      "text": "This service is created to help you see the true meaning behind your chart, understand the timing of key moments, and make confident decisions for what comes next."
+    },
+    "experienceSection": {
+      "eyebrow": "How the session works",
+      "title": "A smooth, professional process from first call to final guidance.",
+      "text": "We keep the experience calm and useful: exact astrology data, clear explanation, and a plan you can follow.",
+      "processSteps": [
+        {
+          "title": "Step 1 — Share the essentials",
+          "text": "Provide your birth date, time and location so the analysis can be built on exact chart data."
+        },
+        {
+          "title": "Step 2 — Explore the themes",
+          "text": "Review the astrology guidance for your career, relationships, health, and the timing ahead."
+        },
+        {
+          "title": "Step 3 — Receive a clear plan",
+          "text": "Get practical suggestions, meaningful timings, and the next actions that feel aligned with your life path."
+        }
+      ]
+    },
+    "detailsHeading": {
+      "eyebrow": "Detailed coverage",
+      "title": "In-depth explanations for every category we analyze."
+    },
+    "consultSection": {
+      "eyebrow": "Ready for the next step?",
+      "title": "Schedule your expert consultation and get a clear, calm plan for your future.",
+      "buttonLabel": "Speak with an expert",
+      "buttonHref": "tel:+919517973153"
+    }
+  },
+  {
+    "id": "kundli-analysis",
+    "slug": "kundli-analysis",
+    "title": "Kundli Analysis",
+    "description": "A detailed Vedic kundli analysis covering education, career, business, marriage, doshas, wealth, health, housing, fortune, planetary positions, and foreign travel prospects.",
+    "highlights": [
+      {
+        "title": "Education",
+        "description": "overall education potential, suitable fields of study, competitive exams, higher education, career alignment"
+      },
+      {
+        "title": "Business",
+        "description": "business potential, best industries, partnership vs. solo business, financial growth and Dhana Yogas, favorable periods, business challenges"
+      },
+      {
+        "title": "Marriage",
+        "description": "love marriage vs. arranged marriage tendencies, spouse characteristics, compatibility, delays, career after marriage, family dynamics"
+      },
+      {
+        "title": "Yog & Dosh",
+        "description": "Jobs, money, health, house, rising of fortune, planets position, foreign travel"
+      }
+    ],
+    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23fcf7fd'/%3E%3Crect x='160' y='150' width='580' height='300' rx='28' fill='white'/%3E%3Ccircle cx='300' cy='300' r='74' fill='%23560067' fill-opacity='0.14'/%3E%3Ccircle cx='600' cy='300' r='74' fill='%23d4a5d9' fill-opacity='0.2'/%3E%3Cpath d='M300 240h250' stroke='%23560067' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M300 300h190' stroke='%2392487a' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M300 360h140' stroke='%23d4a5d9' stroke-width='10' stroke-linecap='round'/%3E%3Ctext x='180' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EKundli Analysis%3C/text%3E%3C/svg%3E",
+    "imageAlt": "Kundli analysis chart illustration",
+    "detailSections": [
+      {
+        "title": "Education & Learning",
+        "intro": "Understand education potential, the best study paths, competitive exam readiness, and higher education direction.",
+        "items": [
+          {
+            "title": "Overall education potential",
+            "description": "Detailed insight about overall education potential."
+          },
+          {
+            "title": "Suitable fields of study",
+            "description": "Detailed insight about suitable fields of study."
+          },
+          {
+            "title": "Competitive exams",
+            "description": "Detailed insight about competitive exams."
+          },
+          {
+            "title": "Higher education",
+            "description": "Detailed insight about higher education."
+          },
+          {
+            "title": "Career alignment",
+            "description": "Detailed insight about career alignment."
+          }
+        ]
+      },
+      {
+        "title": "Business & Finance",
+        "intro": "Explore business potential, industry fit, wealth combinations, and favorable periods for growth.",
+        "items": [
+          {
+            "title": "Business potential",
+            "description": "Detailed insight about business potential."
+          },
+          {
+            "title": "Best industries",
+            "description": "Detailed insight about best industries."
+          },
+          {
+            "title": "Partnership vs. solo business",
+            "description": "Detailed insight about partnership vs. solo business."
+          },
+          {
+            "title": "Financial growth and wealth combinations (Dhana Yogas)",
+            "description": "Detailed insight about financial growth and wealth combinations (dhana yogas)."
+          },
+          {
+            "title": "Favorable periods",
+            "description": "Detailed insight about favorable periods."
+          },
+          {
+            "title": "Business challenges",
+            "description": "Detailed insight about business challenges."
+          }
+        ]
+      },
+      {
+        "title": "Marriage & Relationships",
+        "intro": "Gain insight into marriage tendencies, partner compatibility, family dynamics, and relationship timing.",
+        "items": [
+          {
+            "title": "Love marriage vs. arranged marriage tendencies",
+            "description": "Detailed insight about love marriage vs. arranged marriage tendencies."
+          },
+          {
+            "title": "Characteristics of the spouse",
+            "description": "Detailed insight about characteristics of the spouse."
+          },
+          {
+            "title": "Compatibility and married life",
+            "description": "Detailed insight about compatibility and married life."
+          },
+          {
+            "title": "Possibility of delays or obstacles",
+            "description": "Detailed insight about possibility of delays or obstacles."
+          },
+          {
+            "title": "Career after marriage",
+            "description": "Detailed insight about career after marriage."
+          },
+          {
+            "title": "General family life and relationship dynamics",
+            "description": "Detailed insight about general family life and relationship dynamics."
+          }
+        ]
+      },
+      {
+        "title": "Life Domains & Timing",
+        "intro": "A wider astrology perspective covering career growth, health, wealth, housing, fortune, and travel opportunities.",
+        "items": [
+          {
+            "title": "Yog & Dosh",
+            "description": "Detailed insight about yog & dosh."
+          },
+          {
+            "title": "Jobs",
+            "description": "Detailed insight about jobs."
+          },
+          {
+            "title": "Money",
+            "description": "Detailed insight about money."
+          },
+          {
+            "title": "Health",
+            "description": "Detailed insight about health."
+          },
+          {
+            "title": "House",
+            "description": "Detailed insight about house."
+          },
+          {
+            "title": "Rising of Fortune",
+            "description": "Detailed insight about rising of fortune."
+          },
+          {
+            "title": "Planets Position",
+            "description": "Detailed insight about planets position."
+          },
+          {
+            "title": "Foreign Travel",
+            "description": "Detailed insight about foreign travel."
+          }
+        ]
+      }
+    ],
+    "primaryCta": {
+      "label": "View Details",
+      "href": "/services/kundli-analysis"
+    },
+    "secondaryCta": {
+      "label": "Call with Expert",
+      "href": "tel:+919517973153"
+    },
+    "heroSummary": [
+      "A premium astrology experience built to answer your most important questions with clarity, timing, and real guidance.",
+      "Discover how your chart influences your next year, your relationships, and the choices that matter most."
+    ],
+    "heroBadge": "Deep Service Review",
+    "overviewIntro": {
+      "eyebrow": "What you will explore",
+      "title": "Full clarity across every major life area.",
+      "text": "This service is created to help you see the true meaning behind your chart, understand the timing of key moments, and make confident decisions for what comes next."
+    },
+    "experienceSection": {
+      "eyebrow": "How the session works",
+      "title": "A smooth, professional process from first call to final guidance.",
+      "text": "We keep the experience calm and useful: exact astrology data, clear explanation, and a plan you can follow.",
+      "processSteps": [
+        {
+          "title": "Step 1 — Share the essentials",
+          "text": "Provide your birth date, time and location so the analysis can be built on exact chart data."
+        },
+        {
+          "title": "Step 2 — Explore the themes",
+          "text": "Review the astrology guidance for your career, relationships, health, and the timing ahead."
+        },
+        {
+          "title": "Step 3 — Receive a clear plan",
+          "text": "Get practical suggestions, meaningful timings, and the next actions that feel aligned with your life path."
+        }
+      ]
+    },
+    "detailsHeading": {
+      "eyebrow": "Detailed coverage",
+      "title": "In-depth explanations for every category we analyze."
+    },
+    "consultSection": {
+      "eyebrow": "Ready for the next step?",
+      "title": "Schedule your expert consultation and get a clear, calm plan for your future.",
+      "buttonLabel": "Speak with an expert",
+      "buttonHref": "tel:+919517973153"
+    }
+  },
+  {
+    "id": "kundali-milan",
+    "slug": "kundali-milan",
+    "title": "Kundali Milan",
+    "description": "Assess compatibility through Ashta Koota, dosha analysis, and deeper marriage matching for balanced partnership and long-term harmony.",
+    "highlights": [
+      {
+        "title": "Ashta Koota Milan",
+        "description": "Detailed insight about ashta koota milan."
+      },
+      {
+        "title": "Nadi and Grahan Dosha insights",
+        "description": "Detailed insight about nadi and grahan dosha insights."
+      },
+      {
+        "title": "Emotional",
+        "description": "Mental, and financial compatibility"
+      },
+      {
+        "title": "Marriage timing and long-term potential",
+        "description": "Detailed insight about marriage timing and long-term potential."
+      }
+    ],
+    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23f8f1fb'/%3E%3Crect x='180' y='140' width='540' height='280' rx='28' fill='white'/%3E%3Ccircle cx='330' cy='280' r='80' fill='%23560067' fill-opacity='0.12'/%3E%3Ccircle cx='590' cy='280' r='80' fill='%23d4a5d9' fill-opacity='0.18'/%3E%3Cpath d='M330 280h260' stroke='%23560067' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M370 230l80 100' stroke='%2392487a' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M470 230l-80 100' stroke='%23d4a5d9' stroke-width='10' stroke-linecap='round'/%3E%3Ctext x='220' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EKundali Milan%3C/text%3E%3C/svg%3E",
+    "imageAlt": "Kundali Milan compatibility illustration",
+    "detailSections": [
+      {
+        "title": "Ashta Koota",
+        "intro": "The traditional eightfold compatibility framework that explores the core dynamics of a match.",
+        "items": [
+          {
+            "title": "Varna",
+            "description": "Detailed insight about varna."
+          },
+          {
+            "title": "Vashya",
+            "description": "Detailed insight about vashya."
+          },
+          {
+            "title": "Tara (Dina)",
+            "description": "Detailed insight about tara (dina)."
+          },
+          {
+            "title": "Yoni",
+            "description": "Detailed insight about yoni."
+          },
+          {
+            "title": "Graha Maitri",
+            "description": "Detailed insight about graha maitri."
+          },
+          {
+            "title": "Gana",
+            "description": "Detailed insight about gana."
+          },
+          {
+            "title": "Bhakoot (Rashi)",
+            "description": "Detailed insight about bhakoot (rashi)."
+          },
+          {
+            "title": "Nadi",
+            "description": "Detailed insight about nadi."
+          }
+        ]
+      },
+      {
+        "title": "Dashakoot Milan",
+        "intro": "A deeper compatibility study through the ten traditional points of marriage matching.",
+        "items": [
+          {
+            "title": "Varna Koot",
+            "description": "Detailed insight about varna koot."
+          },
+          {
+            "title": "Vashya Koot",
+            "description": "Detailed insight about vashya koot."
+          },
+          {
+            "title": "Tara Koot",
+            "description": "Detailed insight about tara koot."
+          },
+          {
+            "title": "Yoni Koot",
+            "description": "Detailed insight about yoni koot."
+          },
+          {
+            "title": "Graha Maitri Koot",
+            "description": "Detailed insight about graha maitri koot."
+          },
+          {
+            "title": "Gana Koot",
+            "description": "Detailed insight about gana koot."
+          },
+          {
+            "title": "Rashi (Bhakoot) Koot",
+            "description": "Detailed insight about rashi (bhakoot) koot."
+          },
+          {
+            "title": "Nadi Koot",
+            "description": "Detailed insight about nadi koot."
+          },
+          {
+            "title": "Mahendra Koot",
+            "description": "Detailed insight about mahendra koot."
+          },
+          {
+            "title": "Stri-Dirgha (Deergha) Koot",
+            "description": "Detailed insight about stri-dirgha (deergha) koot."
+          }
+        ]
+      },
+      {
+        "title": "Marriage Compatibility",
+        "intro": "Understand emotional, mental, and physical compatibility for long-term relationship harmony.",
+        "items": [
+          {
+            "title": "Emotional Compatibility",
+            "description": "Detailed insight about emotional compatibility."
+          },
+          {
+            "title": "Mental Compatibility",
+            "description": "Detailed insight about mental compatibility."
+          },
+          {
+            "title": "Physical & Romantic Compatibility",
+            "description": "Detailed insight about physical & romantic compatibility."
+          }
+        ]
+      },
+      {
+        "title": "Family & Domestic Life",
+        "intro": "Assess domestic harmony, family support, and shared values that shape married life.",
+        "items": [
+          {
+            "title": "Married Life",
+            "description": "Detailed insight about married life."
+          },
+          {
+            "title": "Relationship Dynamics",
+            "description": "Detailed insight about relationship dynamics."
+          },
+          {
+            "title": "Family & Domestic Life",
+            "description": "Detailed insight about family & domestic life."
+          }
+        ]
+      },
+      {
+        "title": "Financial & Career Compatibility",
+        "intro": "Review shared financial behavior, career support, work-life balance, and partnership potential.",
+        "items": [
+          {
+            "title": "Combined financial stability",
+            "description": "Detailed insight about combined financial stability."
+          },
+          {
+            "title": "Wealth growth after marriage",
+            "description": "Detailed insight about wealth growth after marriage."
+          },
+          {
+            "title": "Spending and saving habits",
+            "description": "Detailed insight about spending and saving habits."
+          },
+          {
+            "title": "Support in career and finances",
+            "description": "Detailed insight about support in career and finances."
+          },
+          {
+            "title": "Career support after marriage",
+            "description": "Detailed insight about career support after marriage."
+          },
+          {
+            "title": "Balance between work and family",
+            "description": "Detailed insight about balance between work and family."
+          },
+          {
+            "title": "Business partnership potential",
+            "description": "Detailed insight about business partnership potential."
+          },
+          {
+            "title": "Professional growth together",
+            "description": "Detailed insight about professional growth together."
+          }
+        ]
+      },
+      {
+        "title": "Children, Family Expansion & Doshas",
+        "intro": "Look at family growth prospects, parenting compatibility, and important dosha factors.",
+        "items": [
+          {
+            "title": "Traditional indications regarding children",
+            "description": "Detailed insight about traditional indications regarding children."
+          },
+          {
+            "title": "Parenting compatibility",
+            "description": "Detailed insight about parenting compatibility."
+          },
+          {
+            "title": "Family growth prospects",
+            "description": "Detailed insight about family growth prospects."
+          },
+          {
+            "title": "Mangal (Kuja) Dosha Matching",
+            "description": "Detailed insight about mangal (kuja) dosha matching."
+          },
+          {
+            "title": "Nadi Dosha",
+            "description": "Detailed insight about nadi dosha."
+          },
+          {
+            "title": "Grahan Dosha",
+            "description": "Detailed insight about grahan dosha."
+          },
+          {
+            "title": "Kaal Sarp Dosha",
+            "description": "Detailed insight about kaal sarp dosha."
+          }
+        ]
+      },
+      {
+        "title": "Planetary Compatibility & Timing",
+        "intro": "Review the role of moon sign, ascendant, Venus, Mars, and planetary transits in marriage timing.",
+        "items": [
+          {
+            "title": "Moon Sign Compatibility",
+            "description": "Detailed insight about moon sign compatibility."
+          },
+          {
+            "title": "Ascendant (Lagna) Compatibility",
+            "description": "Detailed insight about ascendant (lagna) compatibility."
+          },
+          {
+            "title": "Venus Compatibility",
+            "description": "Detailed insight about venus compatibility."
+          },
+          {
+            "title": "Mars Compatibility",
+            "description": "Detailed insight about mars compatibility."
+          },
+          {
+            "title": "Favorable marriage periods",
+            "description": "Detailed insight about favorable marriage periods."
+          },
+          {
+            "title": "Delays or obstacles",
+            "description": "Detailed insight about delays or obstacles."
+          },
+          {
+            "title": "Significant planetary transits",
+            "description": "Detailed insight about significant planetary transits."
+          }
+        ]
+      },
+      {
+        "title": "Long-Term Relationship Potential",
+        "intro": "Understand stability, emotional maturity, and the strengths and challenges of the match.",
+        "items": [
+          {
+            "title": "Stability of the relationship",
+            "description": "Detailed insight about stability of the relationship."
+          },
+          {
+            "title": "Trust and commitment",
+            "description": "Detailed insight about trust and commitment."
+          },
+          {
+            "title": "Emotional maturity",
+            "description": "Detailed insight about emotional maturity."
+          },
+          {
+            "title": "Longevity of married life",
+            "description": "Detailed insight about longevity of married life."
+          },
+          {
+            "title": "Strong compatibility factors",
+            "description": "Detailed insight about strong compatibility factors."
+          },
+          {
+            "title": "Positive Yogas supporting marriage",
+            "description": "Detailed insight about positive yogas supporting marriage."
+          },
+          {
+            "title": "Potential areas of disagreement",
+            "description": "Detailed insight about potential areas of disagreement."
+          },
+          {
+            "title": "Communication issues",
+            "description": "Detailed insight about communication issues."
+          },
+          {
+            "title": "Family-related challenges",
+            "description": "Detailed insight about family-related challenges."
+          },
+          {
+            "title": "Financial differences",
+            "description": "Detailed insight about financial differences."
+          }
+        ]
+      }
+    ],
+    "primaryCta": {
+      "label": "View Details",
+      "href": "/services/kundali-milan"
+    },
+    "secondaryCta": {
+      "label": "Call with Expert",
+      "href": "tel:+919517973153"
+    },
+    "heroSummary": [
+      "A premium astrology experience built to answer your most important questions with clarity, timing, and real guidance.",
+      "Discover how your chart influences your next year, your relationships, and the choices that matter most."
+    ],
+    "heroBadge": "Deep Service Review",
+    "overviewIntro": {
+      "eyebrow": "What you will explore",
+      "title": "Full clarity across every major life area.",
+      "text": "This service is created to help you see the true meaning behind your chart, understand the timing of key moments, and make confident decisions for what comes next."
+    },
+    "experienceSection": {
+      "eyebrow": "How the session works",
+      "title": "A smooth, professional process from first call to final guidance.",
+      "text": "We keep the experience calm and useful: exact astrology data, clear explanation, and a plan you can follow.",
+      "processSteps": [
+        {
+          "title": "Step 1 — Share the essentials",
+          "text": "Provide your birth date, time and location so the analysis can be built on exact chart data."
+        },
+        {
+          "title": "Step 2 — Explore the themes",
+          "text": "Review the astrology guidance for your career, relationships, health, and the timing ahead."
+        },
+        {
+          "title": "Step 3 — Receive a clear plan",
+          "text": "Get practical suggestions, meaningful timings, and the next actions that feel aligned with your life path."
+        }
+      ]
+    },
+    "detailsHeading": {
+      "eyebrow": "Detailed coverage",
+      "title": "In-depth explanations for every category we analyze."
+    },
+    "consultSection": {
+      "eyebrow": "Ready for the next step?",
+      "title": "Schedule your expert consultation and get a clear, calm plan for your future.",
+      "buttonLabel": "Speak with an expert",
+      "buttonHref": "tel:+919517973153"
+    }
+  },
+  {
+    "id": "marriage-compatibility",
+    "slug": "marriage-compatibility",
+    "title": "Marriage Compatibility",
+    "description": "Understand the dynamics of married life, emotional bonding, family compatibility, and the timing of meaningful relationship growth.",
+    "highlights": [
+      {
+        "title": "Love vs arranged marriage tendencies",
+        "description": "Detailed insight about love vs arranged marriage tendencies."
+      },
+      {
+        "title": "Spouse characteristics and family life",
+        "description": "Detailed insight about spouse characteristics and family life."
+      },
+      {
+        "title": "Financial and career compatibility",
+        "description": "Detailed insight about financial and career compatibility."
+      },
+      {
+        "title": "Children and family expansion prospects",
+        "description": "Detailed insight about children and family expansion prospects."
+      }
+    ],
+    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23fdf8ff'/%3E%3Crect x='180' y='180' width='540' height='240' rx='30' fill='white'/%3E%3Ccircle cx='360' cy='300' r='70' fill='%23560067' fill-opacity='0.16'/%3E%3Ccircle cx='540' cy='300' r='70' fill='%23d4a5d9' fill-opacity='0.2'/%3E%3Cpath d='M360 300c30-40 70-50 180-50' stroke='%23560067' stroke-width='10' stroke-linecap='round'/%3E%3Ccircle cx='540' cy='300' r='24' fill='%23560067'/%3E%3Ctext x='190' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EMarriage Compatibility%3C/text%3E%3C/svg%3E",
+    "imageAlt": "Marriage compatibility illustration",
+    "detailSections": [
+      {
+        "title": "Relationship Foundations",
+        "intro": "Understand relationship tendencies, partner characteristics, and the emotional tone of the bond.",
+        "items": [
+          {
+            "title": "Love marriage vs. arranged marriage tendencies",
+            "description": "Detailed insight about love marriage vs. arranged marriage tendencies."
+          },
+          {
+            "title": "Characteristics of the spouse",
+            "description": "Detailed insight about characteristics of the spouse."
+          },
+          {
+            "title": "Compatibility and married life",
+            "description": "Detailed insight about compatibility and married life."
+          },
+          {
+            "title": "General family life and relationship dynamics",
+            "description": "Detailed insight about general family life and relationship dynamics."
+          }
+        ]
+      },
+      {
+        "title": "Financial & Career Alignment",
+        "intro": "Review shared financial habits, career support, and the practical balance of married life.",
+        "items": [
+          {
+            "title": "Combined financial stability",
+            "description": "Detailed insight about combined financial stability."
+          },
+          {
+            "title": "Wealth growth after marriage",
+            "description": "Detailed insight about wealth growth after marriage."
+          },
+          {
+            "title": "Spending and saving habits",
+            "description": "Detailed insight about spending and saving habits."
+          },
+          {
+            "title": "Support in career and finances",
+            "description": "Detailed insight about support in career and finances."
+          },
+          {
+            "title": "Career support after marriage",
+            "description": "Detailed insight about career support after marriage."
+          },
+          {
+            "title": "Balance between work and family",
+            "description": "Detailed insight about balance between work and family."
+          }
+        ]
+      },
+      {
+        "title": "Family Expansion & Growth",
+        "intro": "Explore children, parenting compatibility, and the family growth prospects of the match.",
+        "items": [
+          {
+            "title": "Traditional indications regarding children",
+            "description": "Detailed insight about traditional indications regarding children."
+          },
+          {
+            "title": "Parenting compatibility",
+            "description": "Detailed insight about parenting compatibility."
+          },
+          {
+            "title": "Family growth prospects",
+            "description": "Detailed insight about family growth prospects."
+          }
+        ]
+      }
+    ],
+    "primaryCta": {
+      "label": "View Details",
+      "href": "/services/marriage-compatibility"
+    },
+    "secondaryCta": {
+      "label": "Call with Expert",
+      "href": "tel:+919517973153"
+    },
+    "heroSummary": [
+      "A premium astrology experience built to answer your most important questions with clarity, timing, and real guidance.",
+      "Discover how your chart influences your next year, your relationships, and the choices that matter most."
+    ],
+    "heroBadge": "Deep Service Review",
+    "overviewIntro": {
+      "eyebrow": "What you will explore",
+      "title": "Full clarity across every major life area.",
+      "text": "This service is created to help you see the true meaning behind your chart, understand the timing of key moments, and make confident decisions for what comes next."
+    },
+    "experienceSection": {
+      "eyebrow": "How the session works",
+      "title": "A smooth, professional process from first call to final guidance.",
+      "text": "We keep the experience calm and useful: exact astrology data, clear explanation, and a plan you can follow.",
+      "processSteps": [
+        {
+          "title": "Step 1 — Share the essentials",
+          "text": "Provide your birth date, time and location so the analysis can be built on exact chart data."
+        },
+        {
+          "title": "Step 2 — Explore the themes",
+          "text": "Review the astrology guidance for your career, relationships, health, and the timing ahead."
+        },
+        {
+          "title": "Step 3 — Receive a clear plan",
+          "text": "Get practical suggestions, meaningful timings, and the next actions that feel aligned with your life path."
+        }
+      ]
+    },
+    "detailsHeading": {
+      "eyebrow": "Detailed coverage",
+      "title": "In-depth explanations for every category we analyze."
+    },
+    "consultSection": {
+      "eyebrow": "Ready for the next step?",
+      "title": "Schedule your expert consultation and get a clear, calm plan for your future.",
+      "buttonLabel": "Speak with an expert",
+      "buttonHref": "tel:+919517973153"
+    }
+  },
+  {
+    "id": "planetary-insights",
+    "slug": "planetary-insights",
+    "title": "Planetary Insights",
+    "description": "Explore planetary positions, Shani Sade Sati, rising fortune, foreign travel prospects, and year-wise horoscope guidance.",
+    "highlights": [
+      {
+        "title": "Planetary positions and house analysis",
+        "description": "Detailed insight about planetary positions and house analysis."
+      },
+      {
+        "title": "Shani Sade Sati guidance",
+        "description": "Detailed insight about shani sade sati guidance."
+      },
+      {
+        "title": "Rising of Fortune and travel timing",
+        "description": "Detailed insight about rising of fortune and travel timing."
+      },
+      {
+        "title": "Current year horoscope support",
+        "description": "Detailed insight about current year horoscope support."
+      }
+    ],
+    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23faf5ff'/%3E%3Ccircle cx='450' cy='300' r='150' fill='white'/%3E%3Ccircle cx='450' cy='300' r='100' fill='%23560067' fill-opacity='0.12'/%3E%3Ccircle cx='450' cy='300' r='40' fill='%23560067'/%3E%3Cpath d='M450 120v360' stroke='%2392487a' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M270 300h360' stroke='%23d4a5d9' stroke-width='10' stroke-linecap='round'/%3E%3Ctext x='220' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EPlanetary Insights%3C/text%3E%3C/svg%3E",
+    "imageAlt": "Planetary insight horoscope illustration",
+    "detailSections": [
+      {
+        "title": "Planetary Positions & Houses",
+        "intro": "See how the positions of planets and houses influence timing, growth, and present life direction.",
+        "items": [
+          {
+            "title": "Planetary positions",
+            "description": "Detailed insight about planetary positions."
+          },
+          {
+            "title": "House analysis",
+            "description": "Detailed insight about house analysis."
+          },
+          {
+            "title": "Rising of Fortune",
+            "description": "Detailed insight about rising of fortune."
+          },
+          {
+            "title": "Planets Position",
+            "description": "Detailed insight about planets position."
+          }
+        ]
+      },
+      {
+        "title": "Transit & Timing Insights",
+        "intro": "Learn how major transits and current-year trends may affect career, travel, and long-term plans.",
+        "items": [
+          {
+            "title": "Shani Sade Sati",
+            "description": "Detailed insight about shani sade sati."
+          },
+          {
+            "title": "Horoscope (Current Year)",
+            "description": "Detailed insight about horoscope (current year)."
+          },
+          {
+            "title": "Favorable periods",
+            "description": "Detailed insight about favorable periods."
+          },
+          {
+            "title": "Foreign Travel",
+            "description": "Detailed insight about foreign travel."
+          }
+        ]
+      },
+      {
+        "title": "Practical Guidance",
+        "intro": "Turn cosmic insight into clear, grounded decisions for life and personal growth.",
+        "items": [
+          {
+            "title": "Jobs",
+            "description": "Detailed insight about jobs."
+          },
+          {
+            "title": "Money",
+            "description": "Detailed insight about money."
+          },
+          {
+            "title": "Health",
+            "description": "Detailed insight about health."
+          },
+          {
+            "title": "House",
+            "description": "Detailed insight about house."
+          },
+          {
+            "title": "Travel planning",
+            "description": "Detailed insight about travel planning."
+          }
+        ]
+      }
+    ],
+    "primaryCta": {
+      "label": "View Details",
+      "href": "/services/planetary-insights"
+    },
+    "secondaryCta": {
+      "label": "Call with Expert",
+      "href": "tel:+919517973153"
+    },
+    "heroSummary": [
+      "A premium astrology experience built to answer your most important questions with clarity, timing, and real guidance.",
+      "Discover how your chart influences your next year, your relationships, and the choices that matter most."
+    ],
+    "heroBadge": "Deep Service Review",
+    "overviewIntro": {
+      "eyebrow": "What you will explore",
+      "title": "Full clarity across every major life area.",
+      "text": "This service is created to help you see the true meaning behind your chart, understand the timing of key moments, and make confident decisions for what comes next."
+    },
+    "experienceSection": {
+      "eyebrow": "How the session works",
+      "title": "A smooth, professional process from first call to final guidance.",
+      "text": "We keep the experience calm and useful: exact astrology data, clear explanation, and a plan you can follow.",
+      "processSteps": [
+        {
+          "title": "Step 1 — Share the essentials",
+          "text": "Provide your birth date, time and location so the analysis can be built on exact chart data."
+        },
+        {
+          "title": "Step 2 — Explore the themes",
+          "text": "Review the astrology guidance for your career, relationships, health, and the timing ahead."
+        },
+        {
+          "title": "Step 3 — Receive a clear plan",
+          "text": "Get practical suggestions, meaningful timings, and the next actions that feel aligned with your life path."
+        }
+      ]
+    },
+    "detailsHeading": {
+      "eyebrow": "Detailed coverage",
+      "title": "In-depth explanations for every category we analyze."
+    },
+    "consultSection": {
+      "eyebrow": "Ready for the next step?",
+      "title": "Schedule your expert consultation and get a clear, calm plan for your future.",
+      "buttonLabel": "Speak with an expert",
+      "buttonHref": "tel:+919517973153"
+    }
+  }
+]
