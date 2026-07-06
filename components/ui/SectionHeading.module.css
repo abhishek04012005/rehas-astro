@@ -1,0 +1,37 @@
+.root {
+  margin-bottom: 1.25rem;
+}
+.eyebrow {
+  text-transform: uppercase;
+  color: var(--primary, #560067);
+  font-size: 0.85rem;
+  letter-spacing: 0.25em;
+  margin: 0 0 0.85rem 0;
+  font-weight: 700;
+}
+.title {
+  margin: 0;
+  font-weight: 800;
+  font-size: clamp(2.3rem, 3.2vw, 3.4rem);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  background: linear-gradient(135deg, var(--primary, #560067), var(--secondary, #d4a5d9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 8px 20px rgba(86, 0, 103, 0.08);
+}
+.subtitle {
+  margin-top: 1rem;
+  color: var(--text-muted, #6c6c78);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+

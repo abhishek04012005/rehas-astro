@@ -1,0 +1,499 @@
+.contact {
+  background: #ffffff;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  padding: 6rem 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Main Grid */
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* Info Section */
+.infoSection h2,
+.formSection h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+}
+
+.sectionDescription {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 0 2rem 0;
+  line-height: 1.6;
+}
+
+/* Info Cards */
+.infoCards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.infoCard {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(212, 165, 217, 0.08) 0%, rgba(146, 72, 122, 0.04) 100%);
+  border: 1px solid rgba(86, 0, 103, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.infoCard:hover {
+  border-color: var(--primary);
+  box-shadow: 0 8px 24px rgba(86, 0, 103, 0.12);
+  transform: translateY(-4px);
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: flex-start;
+  color: var(--primary);
+  font-size: 1.5rem;
+  min-width: 40px;
+}
+
+.iconWrapper svg {
+  width: 24px;
+  height: 24px;
+}
+
+.infoCard h3 {
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.infoCard p {
+  margin: 0.25rem 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.infoCard a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.infoCard a:hover {
+  text-decoration: underline;
+  color: var(--secondary);
+}
+
+.secondaryText {
+  color: #999 !important;
+  font-size: 0.85rem !important;
+}
+
+/* Map Placeholder */
+.mapPlaceholder {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, rgba(86, 0, 103, 0.05) 0%, rgba(146, 72, 122, 0.03) 100%);
+  border: 2px dashed rgba(86, 0, 103, 0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mapContent {
+  text-align: center;
+  color: var(--primary);
+}
+
+.mapContent svg {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.mapContent p {
+  margin: 0;
+  color: #666;
+  font-weight: 600;
+}
+
+/* Form Section */
+.formSection {
+  background: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 0.95rem;
+}
+
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+  padding: 0.9rem 1rem;
+  border: 2px solid rgba(86, 0, 103, 0.2);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  color: #333;
+  background: white;
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: #888;
+  opacity: 1;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus,
+.formGroup select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(86, 0, 103, 0.1);
+}
+
+.formGroup textarea {
+  resize: vertical;
+  font-family: inherit;
+}
+
+.formGroup select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23560067' stroke-width='2'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1.2em;
+  padding-right: 2.5rem;
+}
+
+/* Submit Button */
+.submitBtn {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.submitBtn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.submitBtn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(86, 0, 103, 0.3);
+}
+
+.submitBtn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.submitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.loader {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Success Message */
+.successMessage {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(56, 142, 60, 0.05) 100%);
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  animation: slideIn 0.3s ease;
+}
+
+.successMessage svg {
+  width: 24px;
+  height: 24px;
+  color: #4caf50;
+  flex-shrink: 0;
+}
+
+.successMessage p {
+  margin: 0;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* CTA Section */
+.ctaSection {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(212, 165, 217, 0.3);
+}
+
+.ctaSection h2 {
+  color: white;
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+}
+
+.ctaSection p {
+  font-size: 1.1rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.9;
+}
+
+.ctaBtn {
+  padding: 1rem 2.5rem;
+  background: white;
+  color: var(--primary);
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ctaBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+
+  .container {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2.5rem 1rem;
+  }
+
+  .heroContent h1 {
+    font-size: 1.8rem;
+  }
+
+  .heroContent p {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .infoSection h2,
+  .formSection h2 {
+    font-size: 1.6rem;
+  }
+
+  .mapPlaceholder {
+    height: 250px;
+  }
+
+  .formGroup input,
+  .formGroup textarea,
+  .formGroup select {
+    padding: 0.8rem;
+    font-size: 16px;
+  }
+
+  .submitBtn {
+    padding: 0.9rem 1.5rem;
+  }
+
+  .ctaSection {
+    padding: 3rem 1rem;
+  }
+
+  .ctaSection h2 {
+    font-size: 1.6rem;
+  }
+
+  .ctaSection p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .heroContent h1 {
+    font-size: 1.5rem;
+  }
+
+  .heroContent p {
+    font-size: 0.95rem;
+  }
+
+  .container {
+    padding: 1.5rem 1rem;
+  }
+
+  .contactGrid {
+    gap: 2rem;
+  }
+
+  .infoSection h2,
+  .formSection h2 {
+    font-size: 1.3rem;
+  }
+
+  .sectionDescription {
+    font-size: 0.9rem;
+  }
+
+  .infoCards {
+    gap: 1rem;
+  }
+
+  .infoCard {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .infoCard h3 {
+    font-size: 1rem;
+  }
+
+  .infoCard p {
+    font-size: 0.85rem;
+  }
+
+  .mapPlaceholder {
+    height: 200px;
+  }
+
+  .mapContent svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .form {
+    gap: 1rem;
+  }
+
+  .formGroup label {
+    font-size: 0.9rem;
+  }
+
+  .formGroup input,
+  .formGroup textarea,
+  .formGroup select {
+    padding: 0.75rem;
+    font-size: 16px;
+  }
+
+  .submitBtn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .ctaSection {
+    padding: 2rem 1rem;
+  }
+
+  .ctaSection h2 {
+    font-size: 1.3rem;
+  }
+
+  .ctaSection p {
+    font-size: 0.95rem;
+  }
+
+  .ctaBtn {
+    padding: 0.8rem 2rem;
+    font-size: 0.95rem;
+  }
+}
