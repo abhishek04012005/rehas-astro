@@ -99,7 +99,6 @@
 
 .splitContent {
     display: grid;
-    grid-template-columns: 0.92fr 1.08fr;
     gap: 1.5rem;
     align-items: stretch;
 }
@@ -135,10 +134,12 @@
 }
 
 .sectionHeaderGrid {
-    display: grid;
-    grid-template-columns: 1.15fr 0.85fr;
-    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: 1rem;
 }
 
 .sectionSubtext {
@@ -167,8 +168,13 @@
 }
 
 .sectionHeading {
-    max-width: 760px;
-    margin: 0 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 1rem 0 1.2rem;
 }
 
 .detailsGrid {
@@ -304,10 +310,7 @@
     }
 }
 
-.sectionHeading {
-    max-width: 760px;
-    margin: 1rem 0 1.2rem;
-}
+
 
 .detailsGrid {
     display: grid;
