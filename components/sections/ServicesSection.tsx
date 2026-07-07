@@ -5,6 +5,7 @@ import Link from "next/link";
 import servicesData from "@/data/services.json";
 import styles from "./ServicesSection.module.css";
 import SectionHeader from "../ui/SectionHeader";
+import LineArtBackground from "../LineArtBackground";
 
 const services = servicesData as Array<{
   id: string;
@@ -21,6 +22,10 @@ const services = servicesData as Array<{
 export function ServicesSection() {
   return (
     <section id="services" className={styles.services} aria-labelledby="services-heading">
+      <div className={styles.backgroundLayer} aria-hidden="true">
+        <LineArtBackground variant="minimal" opacity={0.06} />
+      </div>
+
       <div className="shell">
         <SectionHeader
           eyebrow="Services"

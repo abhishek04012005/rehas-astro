@@ -26,13 +26,6 @@ export const contactData = {
         secondaryText: "24 hours",
       },
       {
-        icon: "WhatsApp",
-        title: "WhatsApp",
-        value: "+91 9517973153",
-        link: "https://wa.me/919517973153",
-        secondaryText: "Quick responses via WhatsApp",
-      },
-      {
         icon: "LocationOn",
         title: "Location",
         value: "REHAS, Chanakya Nagar Road, Agam Kua",
@@ -60,7 +53,7 @@ export const contactData = {
     },
   ],
   founder: {
-    name: "Amit Sharma",
+    name: "Rudra Aabhi Singh",
     title: "Founder, REHAS",
     address: "Chanakya Nagar Road, Agam Kua, Patna, Bihar, India - 800007",
     email: "contact@rehas.in",

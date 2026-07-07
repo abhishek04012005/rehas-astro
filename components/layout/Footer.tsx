@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { contactData } from "@/data/details";
+import styles from "./Footer.module.css";
 
 const columns = [
   {
@@ -22,32 +23,45 @@ const columns = [
 
 export function Footer() {
   return (
-    <footer className="footer">
-      <div className="shell footer__inner">
-        <div>
-          <h3 className="footer__title">REHAS</h3>
-          <p className="footer__copy">
-            Spiritual guidance with calm professionalism and a premium experience.
-          </p>
-          <p className="footer__meta">
-            {contactData.founder.name} · {contactData.founder.title}
-          </p>
-          <div className="footer__social">
+    <footer className={styles.footer}>
+      <div className={`shell ${styles.inner}`}>
+        <div className={styles.metaSection}>
+          <div className={styles.brandBlock}>
+            <div className={styles.brandBadge}>R</div>
+            <div>
+              <h3 className={styles.title}>REHAS</h3>
+              <p className={styles.copy}>
+                Spiritual guidance with calm professionalism and a premium experience.
+              </p>
+            </div>
+          </div>
+
+          <div className={styles.highlightCard}>
+            <p className={styles.highlightLabel}>Trusted guidance</p>
+            <p className={styles.highlightText}>
+              {contactData.founder.name} · {contactData.founder.title}
+            </p>
+          </div>
+
+          <div className={styles.socials}>
             {contactData.socials.map((social) => (
-              <Link key={social.platform} href={social.href} className="footer__socialLink">
+              <Link key={social.platform} href={social.href} className={styles.socialLink}>
                 {social.platform}
               </Link>
             ))}
           </div>
         </div>
-        <div className="footer__columns">
+
+        <div className={styles.columns}>
           {columns.map((column) => (
-            <div key={column.title} className="footer__column">
-              <h4>{column.title}</h4>
-              <ul>
+            <div key={column.title} className={styles.column}>
+              <h4 className={styles.columnTitle}>{column.title}</h4>
+              <ul className={styles.columnList}>
                 {column.links.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href}>{link.label}</Link>
+                    <Link href={link.href} className={styles.columnLink}>
+                      {link.label}
+                    </Link>
                   </li>
                 ))}
               </ul>

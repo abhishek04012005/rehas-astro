@@ -12,8 +12,6 @@ import { ContactSection } from "@/components/sections/ContactSection";
 export default function Home() {
   return (
     <div className="pageShell">
-      <Navbar />
-
       <main>
         <HeroSection />
         <AboutSection />
@@ -24,7 +22,6 @@ export default function Home() {
         <ContactSection />
       </main>
 
-      <Footer />
     </div>
   );
 }
