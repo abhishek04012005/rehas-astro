@@ -37,7 +37,7 @@
 
 .sectionDescription {
   font-size: 1rem;
-  color: #666;
+  color: #8b6b9e;
   margin: 0 0 2rem 0;
   line-height: 1.6;
 }
@@ -88,7 +88,7 @@
 
 .infoCard p {
   margin: 0.25rem 0;
-  color: #333;
+  color: var(--text-light);
   font-size: 0.95rem;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .secondaryText {
-  color: #999 !important;
+  color: var(--text-muted) !important;
   font-size: 0.85rem !important;
 }
 
@@ -136,7 +136,7 @@
 
 .mapContent p {
   margin: 0;
-  color: #666;
+  color: #8b6b9e;
   font-weight: 600;
 }
 
@@ -172,13 +172,13 @@
   font-size: 1rem;
   font-family: inherit;
   transition: all 0.3s ease;
-  color: #333;
+  color: var(--text-light);
   background: white;
 }
 
 .formGroup input::placeholder,
 .formGroup textarea::placeholder {
-  color: #888;
+  color: var(--text-grey);
   opacity: 1;
 }
 

@@ -77,7 +77,7 @@
   justify-content: space-between;
   gap: 1rem;
   cursor: pointer;
-  color: var(--foreground);
+  color: var(--primary);
   font-weight: 600;
   list-style: none;
 }

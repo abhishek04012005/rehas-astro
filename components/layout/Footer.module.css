@@ -42,10 +42,14 @@
 }
 
 .copy,
-.meta,
+.meta {
+  color: var(--text-muted, #555555);
+  line-height: 1.7;
+}
+
 .columnLink,
 .columnList {
-  color: var(--text-muted, #555555);
+  color: var(--text-grey, #a896b2);
   line-height: 1.7;
 }
 
@@ -79,7 +83,7 @@
 }
 
 .highlightText {
-  color: var(--foreground, #171717);
+  color: var(--primary);
   font-weight: 600;
 }
 

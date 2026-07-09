@@ -71,7 +71,7 @@
 }
 
 .content h3 {
-  color: var(--foreground);
+  color: var(--primary);
   font-size: clamp(1.3rem, 2vw, 1.7rem);
 }
 
