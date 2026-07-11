@@ -1,0 +1,50 @@
+.fab {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 0.9rem;
+  background: linear-gradient(180deg, var(--primary), var(--secondary));
+  color: white;
+  border-radius: 999px;
+  box-shadow: 0 18px 40px rgba(86, 0, 103, 0.18);
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
+  transform-origin: center;
+}
+
+.fab:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 26px 56px rgba(86, 0, 103, 0.22);
+}
+
+.icon {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+}
+
+.label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 680px) {
+  .fab {
+    right: 16px;
+    bottom: 16px;
+    padding: 0.6rem 0.7rem;
+  }
+
+  .label {
+    display: none;
+  }
+}

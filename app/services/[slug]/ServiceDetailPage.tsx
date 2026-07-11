@@ -79,7 +79,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   const consultSection = service.consultSection ?? {
     eyebrow: "Ready for the next step?",
     title: "Schedule your expert consultation and get a clear, calm plan for your future.",
-    buttonLabel: "Speak with an expert",
+    buttonLabel: "Speak with our expert",
     buttonHref: "tel:+919517973153",
   };
 

@@ -27,16 +27,25 @@ export function ContactSection() {
     setError('');
 
     try {
-      // POST to an API route that handles storing/submitting the contact
-      const res = await fetch('/api/contact', {
+      // POST to API route (server will store in Supabase)
+      const res = await fetch('/api/save-contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...formData, status: 'new' }),
       });
 
       if (!res.ok) {
-        const payload = await res.json().catch(() => ({}));
-        throw new Error(payload?.error || 'Failed to submit');
+        // Try to parse JSON, otherwise read text for error details
+        let errMsg = 'Failed to submit';
+        try {
+          const payload = await res.json();
+          if (payload && payload.error) errMsg = payload.error;
+          else errMsg = JSON.stringify(payload || errMsg);
+        } catch {
+          const txt = await res.text().catch(() => '');
+          if (txt) errMsg = txt;
+        }
+        throw new Error(errMsg);
       }
 
       setSubmitted(true);
