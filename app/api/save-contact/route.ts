@@ -22,6 +22,7 @@ export async function POST(req: Request) {
       admin_id: admin_id ?? null,
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),
+      website: "astrology.rehas.in",
     };
 
     const { data, error } = await supabaseAdmin.from("contact_submissions").insert([insertObj]).select();

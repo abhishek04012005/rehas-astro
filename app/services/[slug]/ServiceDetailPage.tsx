@@ -119,7 +119,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           <div className="shell">
             <div className={styles.splitContent}>
               <div className={styles.splitCard}>
-                <p className={styles.eyebrow}>{overviewIntro.eyebrow}</p>
+                {/* <p className={styles.eyebrow}>{overviewIntro.eyebrow}</p> */}
                 <h2>{overviewIntro.title}</h2>
                 <p>{overviewIntro.text}</p>
               </div>

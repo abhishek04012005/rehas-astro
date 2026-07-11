@@ -7,6 +7,8 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 /* Hero Section */
@@ -23,6 +25,21 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: start;
+}
+
+/* Helpers for single-column centered forms (used on enquiry page) */
+.centerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 4rem;
+}
+
+.centeredGrid {
+  grid-template-columns: 1fr !important;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* Info Section */
@@ -174,6 +191,8 @@
   color: var(--text-light);
   background: white;
 }
+
+/* removed country select; phone is a single input */
 
 .formGroup input::placeholder,
 .formGroup textarea::placeholder {

@@ -17,6 +17,30 @@ export function ContactSection() {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
+
+    // Restrict name to letters and spaces only
+    if (name === 'name') {
+      const sanitized = (value || '').replace(/[^A-Za-z\s]/g, '');
+      setFormData((prev) => ({ ...prev, [name]: sanitized }));
+      setError('');
+      return;
+    }
+
+    // Restrict phone to optional leading + and up to 15 digits
+    if (name === 'phone') {
+      let v = value || '';
+      v = v.trim();
+      const hasPlus = v.startsWith('+');
+      // Remove all non-digit characters
+      let digits = v.replace(/\D/g, '');
+      // Limit digits to 15
+      digits = digits.slice(0, 15);
+      const final = hasPlus ? `+${digits}` : digits;
+      setFormData((prev) => ({ ...prev, [name]: final }));
+      setError('');
+      return;
+    }
+
     setFormData((prev) => ({ ...prev, [name]: value }));
     setError('');
   };
@@ -27,11 +51,26 @@ export function ContactSection() {
     setError('');
 
     try {
+      // Normalize and validate phone number: allow optional leading + and 7-15 digits
+      const rawPhone = (formData.phone || '').trim();
+      const hasPlus = rawPhone.startsWith('+');
+      const digitsOnly = rawPhone.replace(/\D/g, '');
+      // Keep leading + if present, otherwise leave as digits (user-provided)
+      const normalized = hasPlus ? `+${digitsOnly}` : `${digitsOnly}`;
+
+      const e164Like = /^\+?\d{7,15}$/;
+      if (!e164Like.test(normalized)) {
+        setError('Enter a valid phone number (7–15 digits, optional leading +).');
+        setLoading(false);
+        return;
+      }
+
       // POST to API route (server will store in Supabase)
       const res = await fetch('/api/save-contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...formData, status: 'new' }),
+        // send normalized phone (preserve leading + if provided)
+        body: JSON.stringify({ ...formData, phone: normalized, status: 'new' }),
       });
 
       if (!res.ok) {
@@ -67,6 +106,8 @@ export function ContactSection() {
     };
     return icons[iconName] || null;
   };
+
+  // keep simple: users enter their full number (with or without +)
 
   return (
     <div className={styles.contact}>
