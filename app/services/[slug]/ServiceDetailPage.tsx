@@ -100,7 +100,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 ))}
               </div>
               <div className={styles.heroActions}>
-                <Link href={service.secondaryCta.href} className="button button--primary">
+                <Link href={service.secondaryCta.href} className={`button button--primary ${styles.consultCta}`}>
                   {service.secondaryCta.label}
                 </Link>
               </div>
@@ -188,7 +188,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
               <p className={styles.eyebrow}>{consultSection.eyebrow}</p>
               <h2>{consultSection.title}</h2>
             </div>
-            <Link href={consultSection.buttonHref} className="button button--primary">
+            <Link href={consultSection.buttonHref} className={`button button--primary `}>
               {consultSection.buttonLabel}
             </Link>
           </div>

@@ -37,7 +37,7 @@
 
 .heroText p,
 .heroSubtitle {
-  color: var(--text-grey);
+    color: var(--text-grey);
     line-height: 1.85;
     max-width: 720px;
 }
@@ -58,6 +58,15 @@
     flex-wrap: wrap;
     gap: 0.8rem;
     margin-top: 1.8rem;
+    width: 100%;
+}
+
+.consultCta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1 1 100%;
 }
 
 .heroBadge {
@@ -143,7 +152,7 @@
 }
 
 .sectionSubtext {
-  color: var(--text-grey);
+    color: var(--text-grey);
     line-height: 1.75;
 }
 
@@ -163,7 +172,7 @@
 .splitPoint p,
 .ctaCard p,
 .consultCard p {
-  color: var(--text-grey);
+    color: var(--text-grey);
     line-height: 1.8;
 }
 
@@ -416,4 +425,8 @@
     .processGrid {
         gap: 0.9rem;
     }
+}
+
+.consultCta {
+    transition: all 0.3s ease;
 }
