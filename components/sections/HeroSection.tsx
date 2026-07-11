@@ -8,7 +8,11 @@ import LineArtBackground from "../LineArtBackground";
 import styles from "./HeroSection.module.css";
 import SectionHeading from "../ui/SectionHeading";
 
-export function HeroSection() {
+interface HeroSectionProps {
+  onOpenKundli?: () => void;
+}
+
+export function HeroSection({ onOpenKundli }: HeroSectionProps) {
   return (
     <section className={styles.hero}>
       <LineArtBackground variant="default" opacity={0.06} />
@@ -30,10 +34,10 @@ export function HeroSection() {
             className={styles.heroHeading}
           />
           <div className={styles.heroActions}>
-            <a className={styles.primaryButton} href="#contact">
+            <button className={styles.primaryButton} onClick={onOpenKundli}>
               <StarIcon className={styles.buttonIcon} />
-              Begin Your Journey
-            </a>
+              Get Your Free Kundli
+            </button>
             <a className={styles.secondaryButton} href="#services">
               <ComprassIcon className={styles.buttonIcon} />
               Explore Services
