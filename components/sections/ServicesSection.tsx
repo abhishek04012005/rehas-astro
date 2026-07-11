@@ -45,25 +45,34 @@ export function ServicesSection() {
               whileHover={{ y: -4, scale: 1.01 }}
             >
               <div className={`${styles.visual} ${index % 2 === 1 ? styles.reverse : ""}`}>
-                <img src={service.image} alt={service.imageAlt} className={styles.image} />
+                <div className={styles.imageWrap}>
+                  <img src={service.image} alt={service.imageAlt} className={styles.image} />
+                  <div className={styles.imageOverlay} aria-hidden="true" />
+                </div>
               </div>
 
               <div className={styles.content}>
-                <div className={styles.badge}>Astrology Service</div>
+                <div className={styles.cardTop}>
+                  <span className={styles.badge}>Astrology Service</span>
+                  <span className={styles.meta}>Personal guidance</span>
+                </div>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
 
-                <ul className={styles.highlights}>
-                  {service.highlights.map((item) => (
-                    <li key={item.title}>{item.title}</li>
-                  ))}
-                </ul>
+                <div className={styles.highlightsWrap}>
+                  <p className={styles.highlightsLabel}>What this service includes</p>
+                  <ul className={styles.highlights}>
+                    {service.highlights.map((item) => (
+                      <li key={item.title}>{item.title}</li>
+                    ))}
+                  </ul>
+                </div>
 
                 <div className={styles.actions}>
-                  <Link href={service.primaryCta.href} className="button button--primary">
+                  <Link href={service.primaryCta.href} className={`button button--primary ${styles.primaryAction}`}>
                     {service.primaryCta.label}
                   </Link>
-                  <Link href={service.secondaryCta.href} className="button button--secondary">
+                  <Link href={service.secondaryCta.href} className={`button button--secondary ${styles.secondaryAction}`}>
                     {service.secondaryCta.label}
                   </Link>
                 </div>
