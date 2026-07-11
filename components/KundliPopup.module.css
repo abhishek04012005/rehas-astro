@@ -1,5 +1,24 @@
 /* Kundli Popup Modal Styling */
 
+.pageWrapper {
+  min-height: 100vh;
+  padding: 6rem 1rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(212, 165, 217, 0.15), rgba(255,255,255,0.95));
+}
+
+.pageCard {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(86, 0, 103, 0.2);
+  max-width: 620px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
 .overlay {
   position: fixed;
   top: 0;

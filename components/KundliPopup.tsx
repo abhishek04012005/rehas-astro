@@ -4,11 +4,12 @@ import { useState, useEffect } from "react";
 import styles from "./KundliPopup.module.css";
 
 interface KundliPopupProps {
-  isOpen: boolean;
-  onClose: () => void;
+  isOpen?: boolean;
+  onClose?: () => void;
+  mode?: "modal" | "page";
 }
 
-export default function KundliPopup({ isOpen, onClose }: KundliPopupProps) {
+export default function KundliPopup({ isOpen = true, onClose = () => {}, mode = "modal" }: KundliPopupProps) {
   const [form, setForm] = useState({
     full_name: "",
     phone: "",
@@ -24,7 +25,7 @@ export default function KundliPopup({ isOpen, onClose }: KundliPopupProps) {
 
   // Close on Escape key
   useEffect(() => {
-    if (!isOpen) return;
+    if (mode !== "modal" || !isOpen) return;
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
     };
@@ -97,14 +98,16 @@ export default function KundliPopup({ isOpen, onClose }: KundliPopupProps) {
     }
   };
 
-  if (!isOpen) return null;
+  if (mode !== "page" && !isOpen) return null;
 
   return (
-    <div className={styles.overlay} onClick={onClose}>
-      <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
-        <button className={styles.closeBtn} onClick={onClose}>
-          ✕
-        </button>
+    <div className={mode === "page" ? styles.pageWrapper : styles.overlay} onClick={mode === "modal" ? onClose : undefined}>
+      <div className={mode === "page" ? styles.pageCard : styles.modal} onClick={mode === "modal" ? (e) => e.stopPropagation() : undefined}>
+        {mode === "modal" && (
+          <button className={styles.closeBtn} onClick={onClose}>
+            ✕
+          </button>
+        )}
 
         <div className={styles.content}>
           <div className={styles.header}>

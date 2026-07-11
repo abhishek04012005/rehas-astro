@@ -4,7 +4,7 @@
   margin-top: 2rem;
   background:
     radial-gradient(circle at top left, rgba(212, 165, 217, 0.24), transparent 34%),
-    linear-gradient(135deg, #ffffff 0%, #fcf8fd 100%);
+    linear-gradient(135deg, var(--background) 0%, var(--light-bg) 100%);
   border-top: 1px solid rgba(86, 0, 103, 0.12);
 }
 
@@ -35,15 +35,15 @@
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--primary, #560067), var(--secondary, #92487a));
-  color: var(--background, #ffffff);
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: var(--background);
   font-weight: 800;
   box-shadow: 0 14px 30px rgba(86, 0, 103, 0.2);
 }
 
 .title {
   margin: 0 0 0.45rem;
-  color: var(--primary, #560067);
+  color: var(--primary);
   font-size: 1.25rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -51,13 +51,13 @@
 
 .copy,
 .meta {
-  color: var(--text-grey, #a896b2);
+  color: var(--text-grey);
   line-height: 1.7;
 }
 
 .columnLink,
 .columnList {
-  color: var(--text-grey, #a896b2);
+  color: var(--text-grey);
   line-height: 1.7;
 }
 
@@ -83,7 +83,7 @@
 
 .highlightLabel {
   margin-bottom: 0.2rem;
-  color: var(--text-grey, #a896b2);
+  color: var(--text-grey);
   font-size: 0.77rem;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -109,8 +109,8 @@
   height: 2.6rem;
   border: 1px solid rgba(86, 0, 103, 0.14);
   border-radius: 999px;
-  color: var(--primary, #560067);
-  background: rgba(255, 255, 255, 0.75);
+  color: var(--primary);
+  background: var(--background);
   transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 
@@ -121,7 +121,7 @@
 .socialLink:hover {
   transform: translateY(-1px);
   border-color: rgba(86, 0, 103, 0.28);
-  background: rgba(212, 165, 217, 0.16);
+  background: var(--accent);
 }
 
 .columns {
@@ -136,7 +136,7 @@
 
 .columnTitle {
   margin-bottom: 1rem;
-  color: var(--foreground, #171717);
+  color: var(--foreground);
   font-size: 0.95rem;
   font-weight: 700;
 }
@@ -154,21 +154,36 @@
 }
 
 .columnLink:hover {
-  color: var(--primary, #560067);
+  color: var(--primary);
 }
 
 .bottomSection {
   border-top: 1px solid rgba(86, 0, 103, 0.12);
   padding: 1.5rem 0;
-  background: rgba(212, 165, 217, 0.08);
+  background: rgba(212, 165, 217, 0.12);
 }
 
 .copyright {
   margin: 0;
-  color: var(--text-grey, #a896b2);
+  color: var(--text-grey);
   font-size: 0.85rem;
   text-align: center;
   line-height: 1.6;
+}
+
+.poweredBy {
+  margin: 0.25rem 0 0;
+  color: var(--text-grey);
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.poweredBy a {
+  color: var(--primary);
+  font-weight: 600;
+  transition: color 0.2s ease;
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {

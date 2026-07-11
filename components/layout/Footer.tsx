@@ -3,7 +3,6 @@ import Image from "next/image";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import { contactData } from "@/data/details";
 import styles from "./Footer.module.css";
 import LogoImage from "@/public/rehasastrology.svg";
 
@@ -30,7 +29,7 @@ const columns = [
     title: "Resources",
     links: [
       { label: "FAQ", href: "/faq" },
-      { label: "Free Kundli", href: "/" },
+      { label: "Free Kundli", href: "/kundli" },
       { label: "Get Enquiry", href: "/enquiry" },
       { label: "Admin Login", href: "/admin" },
     ],
@@ -38,6 +37,8 @@ const columns = [
 ];
 
 export function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
       <div className={`shell ${styles.inner}`}>
@@ -98,7 +99,10 @@ export function Footer() {
       <div className={styles.bottomSection}>
         <div className="shell">
           <p className={styles.copyright}>
-            © 2026 REHAS Astrology. All rights reserved. | Privacy Policy | Terms of Service
+            © {year} REHAS Astrology. All rights reserved. | <Link href="/privacy-policy">Privacy Policy</Link> | <Link href="/terms-of-service">Terms of Service</Link>
+          </p>
+          <p className={styles.poweredBy}>
+            Powered by <a href="https://anksquare.com" target="_blank" rel="noreferrer">Anksquare Private Limited</a>
           </p>
         </div>
       </div>
