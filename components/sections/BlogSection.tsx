@@ -25,7 +25,11 @@ export function BlogSection() {
   return (
     <section id="blog" className={styles.blog}>
       <div className="shell">
-        <SectionHeader eyebrow="Insights" title="Thoughtful articles for your next step." />
+        <SectionHeader 
+          eyebrow="Insights" 
+          title="Thoughtful articles for your next step." 
+          subtitle="Explore perspectives on spiritual guidance, personal growth, and intentional living to support your journey."
+        />
         <div className={styles.cardGrid}>
           {posts.map((post) => (
             <motion.article key={post.title} className={styles.card} whileHover={{ y: -4, scale: 1.01 }}>

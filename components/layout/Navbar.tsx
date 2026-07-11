@@ -11,10 +11,11 @@ import styles from "./Navbar.module.css";
 
 const links = [
   { label: "Home", href: "/" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Blog", href: "#blog" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services-list" },
+  { label: "Blog", href: "/blog" },
+  { label: "FAQ", href: "/faq" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export function Navbar() {
@@ -36,7 +37,7 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link href="#contact" className={styles.navCta}>
+          <Link href="/contact" className={styles.navCta}>
             Call with Expert
           </Link>
         </nav>
