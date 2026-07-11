@@ -55,7 +55,7 @@ textarea {
 }
 
 .shell {
-  width: min(1120px, calc(100% - 2rem));
+  width: min(1280px, calc(100% - 2rem));
   margin: 0 auto;
 }
 
