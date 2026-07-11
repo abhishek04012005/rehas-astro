@@ -1,0 +1,64 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#560067;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#92487a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#gradPrimary)" opacity="0.1" stroke="url(#gradPrimary)" stroke-width="2"/>
+  
+  <!-- Outer Zodiac Circle -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="url(#gradPrimary)" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="60" fill="none" stroke="url(#gradPrimary)" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Central Sun -->
+  <circle cx="100" cy="100" r="25" fill="url(#gradPrimary)" filter="url(#glow)"/>
+  <circle cx="100" cy="100" r="20" fill="#ffd700" opacity="0.7"/>
+  
+  <!-- Zodiac Division Lines (12 segments) -->
+  <g stroke="url(#gradPrimary)" stroke-width="1" opacity="0.5">
+    <line x1="100" y1="20" x2="100" y2="35" />
+    <line x1="100" y1="165" x2="100" y2="180" />
+    <line x1="20" y1="100" x2="35" y2="100" />
+    <line x1="165" y1="100" x2="180" y2="100" />
+    <line x1="41.42" y1="41.42" x2="52.13" y2="52.13" />
+    <line x1="147.87" y1="147.87" x2="158.58" y2="158.58" />
+    <line x1="158.58" y1="41.42" x2="147.87" y2="52.13" />
+    <line x1="52.13" y1="147.87" x2="41.42" y2="158.58" />
+  </g>
+  
+  <!-- Planets/Stars on Zodiac Circle -->
+  <circle cx="100" cy="30" r="3" fill="url(#gradPrimary)" />
+  <circle cx="165" cy="65" r="2.5" fill="url(#gradPrimary)" opacity="0.8" />
+  <circle cx="170" cy="100" r="2" fill="url(#gradPrimary)" opacity="0.6" />
+  <circle cx="165" cy="135" r="2.5" fill="url(#gradPrimary)" opacity="0.8" />
+  <circle cx="100" cy="170" r="3" fill="url(#gradPrimary)" />
+  <circle cx="35" cy="135" r="2.5" fill="url(#gradPrimary)" opacity="0.8" />
+  <circle cx="30" cy="100" r="2" fill="url(#gradPrimary)" opacity="0.6" />
+  <circle cx="35" cy="65" r="2.5" fill="url(#gradPrimary)" opacity="0.8" />
+  
+  <!-- Star burst effect around center -->
+  <g stroke="url(#gradPrimary)" stroke-width="0.8" opacity="0.4">
+    <line x1="100" y1="75" x2="100" y2="85" />
+    <line x1="100" y1="115" x2="100" y2="125" />
+    <line x1="75" y1="100" x2="85" y2="100" />
+    <line x1="115" y1="100" x2="125" y2="100" />
+  </g>
+  
+  <!-- Decorative constellation lines -->
+  <g stroke="url(#gradPrimary)" stroke-width="0.5" opacity="0.25" fill="none">
+    <path d="M 50 50 L 75 70 L 90 55" />
+    <path d="M 150 150 L 125 130 L 110 145" />
+  </g>
+</svg>

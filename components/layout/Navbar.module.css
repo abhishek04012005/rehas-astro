@@ -29,11 +29,6 @@
 .brandMark {
   display: grid;
   place-items: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 999px;
-  color: var(--background);
-  box-shadow: 0 14px 35px rgba(86, 0, 103, 0.2);
 }
 
 .navDesktop {

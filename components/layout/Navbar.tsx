@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import LogoImage from "@/public/logohalf.svg";
+import LogoImage from "@/public/rehasastrology.svg";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 
@@ -26,12 +26,7 @@ export function Navbar() {
       <div className={`shell ${styles.shellNav}`}>
         <Link href="/" className={styles.brand}>
           <span className={styles.brandMark}>
-            <Image src={LogoImage} alt="REHAS logo" width={24} height={24} />
-          </span>
-          <span>
-            REHAS
-            <br />
-            ASTRO
+            <Image src={LogoImage} alt="REHAS logo" width={120} height={80} />
           </span>
         </Link>
 
