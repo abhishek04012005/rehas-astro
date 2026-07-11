@@ -93,7 +93,7 @@ export function ContactSection() {
           </div>
 
           <div className={styles.formSection}>
-            <SectionHeader title={(contactData as any).form?.title ?? 'Contact Us'} subtitle={(contactData as any).form?.description} />
+            <SectionHeader title={(contactData as any).form?.title ?? 'Contact Us'} subtitle={(contactData as any).form?.description ?? 'Get in touch with us today.'} />
 
             {submitted && (
               <div className={styles.successMessage}>
