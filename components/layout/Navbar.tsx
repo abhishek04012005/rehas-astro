@@ -28,7 +28,11 @@ export function Navbar() {
           <span className={styles.brandMark}>
             <Image src={LogoImage} alt="REHAS logo" width={24} height={24} />
           </span>
-          <span>REHAS</span>
+          <span>
+            REHAS
+            <br />
+            ASTRO
+          </span>
         </Link>
 
         <nav className={styles.navDesktop} aria-label="Primary navigation">
