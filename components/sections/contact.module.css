@@ -105,7 +105,7 @@
 }
 
 .secondaryText {
-  color: var(--text-muted) !important;
+  color: var(--text-grey) !important;
   font-size: 0.85rem !important;
 }
 

@@ -34,7 +34,7 @@
         "description": "Detailed insight about horoscope (current year)."
       }
     ],
-    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23f8eff9'/%3E%3Ccircle cx='680' cy='180' r='140' fill='%23560067' fill-opacity='0.12'/%3E%3Ccircle cx='250' cy='430' r='180' fill='%23d4a5d9' fill-opacity='0.2'/%3E%3Crect x='140' y='180' width='320' height='220' rx='28' fill='white'/%3E%3Cpath d='M230 360c40-90 120-140 210-140' stroke='%23560067' stroke-width='10' stroke-linecap='round'/%3E%3Ccircle cx='425' cy='220' r='38' fill='%23560067'/%3E%3Ctext x='180' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EVedic Astrology%3C/text%3E%3C/svg%3E",
+    "image": "/images/vedic.png",
     "imageAlt": "Vedic astrology chart illustration",
     "detailSections": [
       {
@@ -143,7 +143,7 @@
         "description": "Jobs, money, health, house, rising of fortune, planets position, foreign travel"
       }
     ],
-    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23fcf7fd'/%3E%3Crect x='160' y='150' width='580' height='300' rx='28' fill='white'/%3E%3Ccircle cx='300' cy='300' r='74' fill='%23560067' fill-opacity='0.14'/%3E%3Ccircle cx='600' cy='300' r='74' fill='%23d4a5d9' fill-opacity='0.2'/%3E%3Cpath d='M300 240h250' stroke='%23560067' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M300 300h190' stroke='%2392487a' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M300 360h140' stroke='%23d4a5d9' stroke-width='10' stroke-linecap='round'/%3E%3Ctext x='180' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EKundli Analysis%3C/text%3E%3C/svg%3E",
+    "image": "/images/kundli.png",
     "imageAlt": "Kundli analysis chart illustration",
     "detailSections": [
       {
@@ -342,7 +342,7 @@
         "description": "Detailed insight about marriage timing and long-term potential."
       }
     ],
-    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23f8f1fb'/%3E%3Crect x='180' y='140' width='540' height='280' rx='28' fill='white'/%3E%3Ccircle cx='330' cy='280' r='80' fill='%23560067' fill-opacity='0.12'/%3E%3Ccircle cx='590' cy='280' r='80' fill='%23d4a5d9' fill-opacity='0.18'/%3E%3Cpath d='M330 280h260' stroke='%23560067' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M370 230l80 100' stroke='%2392487a' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M470 230l-80 100' stroke='%23d4a5d9' stroke-width='10' stroke-linecap='round'/%3E%3Ctext x='220' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EKundali Milan%3C/text%3E%3C/svg%3E",
+    "image": "/images/kundlimilan.png",
     "imageAlt": "Kundali Milan compatibility illustration",
     "detailSections": [
       {
@@ -689,7 +689,7 @@
         "description": "Detailed insight about children and family expansion prospects."
       }
     ],
-    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23fdf8ff'/%3E%3Crect x='180' y='180' width='540' height='240' rx='30' fill='white'/%3E%3Ccircle cx='360' cy='300' r='70' fill='%23560067' fill-opacity='0.16'/%3E%3Ccircle cx='540' cy='300' r='70' fill='%23d4a5d9' fill-opacity='0.2'/%3E%3Cpath d='M360 300c30-40 70-50 180-50' stroke='%23560067' stroke-width='10' stroke-linecap='round'/%3E%3Ccircle cx='540' cy='300' r='24' fill='%23560067'/%3E%3Ctext x='190' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EMarriage Compatibility%3C/text%3E%3C/svg%3E",
+    "image": "/images/marriagecompatibility.png",
     "imageAlt": "Marriage compatibility illustration",
     "detailSections": [
       {
@@ -834,7 +834,7 @@
         "description": "Detailed insight about current year horoscope support."
       }
     ],
-    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Crect width='900' height='600' rx='36' fill='%23faf5ff'/%3E%3Ccircle cx='450' cy='300' r='150' fill='white'/%3E%3Ccircle cx='450' cy='300' r='100' fill='%23560067' fill-opacity='0.12'/%3E%3Ccircle cx='450' cy='300' r='40' fill='%23560067'/%3E%3Cpath d='M450 120v360' stroke='%2392487a' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M270 300h360' stroke='%23d4a5d9' stroke-width='10' stroke-linecap='round'/%3E%3Ctext x='220' y='520' font-family='Arial, sans-serif' font-size='36' fill='%23560067'%3EPlanetary Insights%3C/text%3E%3C/svg%3E",
+    "image": "/images/planetaryinsights.png",
     "imageAlt": "Planetary insight horoscope illustration",
     "detailSections": [
       {

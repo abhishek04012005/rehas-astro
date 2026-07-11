@@ -24,7 +24,7 @@
 }
 .subtitle {
   margin-top: 1rem;
-  color: var(--text-muted, #6c6c78);
+  color: var(--text-grey, #a896b2);
   font-size: 1.05rem;
   line-height: 1.8;
 }

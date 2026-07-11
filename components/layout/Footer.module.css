@@ -43,7 +43,7 @@
 
 .copy,
 .meta {
-  color: var(--text-muted, #555555);
+  color: var(--text-grey, #a896b2);
   line-height: 1.7;
 }
 
@@ -75,7 +75,7 @@
 
 .highlightLabel {
   margin-bottom: 0.2rem;
-  color: var(--secondary, #92487a);
+  color: var(--text-grey, #a896b2);
   font-size: 0.77rem;
   font-weight: 700;
   letter-spacing: 0.16em;

@@ -32,7 +32,7 @@
 }
 
 .card p {
-  color: var(--text-muted);
+  color: var(--text-grey);
   line-height: 1.7;
 }
 

@@ -47,7 +47,7 @@
 }
 
 .subtitle {
-  color: var(--text-muted);
+  color: var(--text-grey);
   line-height: 1.8;
   font-size: 1.05rem;
   margin: 0;

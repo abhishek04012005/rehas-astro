@@ -165,7 +165,7 @@
 }
 
 .heroCopy {
-  color: var(--text-muted);
+  color: var(--text-grey);
   line-height: 1.85;
   margin-top: 1rem;
   font-size: 1.125rem;
