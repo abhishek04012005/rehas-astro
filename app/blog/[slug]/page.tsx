@@ -2,10 +2,41 @@ import Link from "next/link";
 import Image from "next/image";
 import blogPosts from "@/data/blogPosts.json";
 import { notFound } from "next/navigation";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "./page.module.css";
 
-export function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const post = blogPosts.find((item) => item.slug === slug);
+
+  if (!post) {
+    return {
+      title: "Blog Post Not Found | REHAS Astrology",
+      description: "The requested blog post could not be found.",
+    };
+  }
+
+  return {
+    title: `${post.title} | REHAS Blog`,
+    description: post.excerpt,
+    openGraph: {
+      title: `${post.title} | REHAS Blog`,
+      description: post.excerpt,
+      url: `https://rehas.in/blog/${post.slug}`,
+      type: "article",
+      images: [
+        {
+          url: post.image ? `https://rehas.in${post.image}` : "https://rehas.in/images/vedic.png",
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.title} | REHAS Blog`,
+      description: post.excerpt,
+    },
+  };
 }
 
 export default function BlogDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -20,9 +51,46 @@ async function BlogDetailContent({ params }: { params: Promise<{ slug: string }>
     notFound();
   }
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    image: [`https://rehas.in${post.image}`],
+    author: {
+      "@type": "Person",
+      name: post.author,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "REHAS Astrology",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://rehas.in/images/vedic.png",
+      },
+    },
+    datePublished: new Date(post.publishedAt).toISOString(),
+    dateModified: new Date(post.publishedAt).toISOString(),
+    description: post.excerpt,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://rehas.in/blog/${post.slug}`,
+    },
+  };
+
   return (
     <main className={styles.page}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <div className={styles.wrapper}>
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Blog", href: "/blog" },
+            { label: post.title },
+          ]}
+        />
         <Link href="/blog" className={styles.backLink}>
           ← Back to all blogs
         </Link>

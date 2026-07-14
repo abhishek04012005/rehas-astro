@@ -16,8 +16,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "REHAS | Spiritual Guidance",
-  description: "A polished, premium design-system experience for spiritual guidance and thoughtful support.",
+  title: {
+    default: "REHAS | Spiritual Guidance",
+    template: "%s | REHAS Astrology",
+  },
+  description:
+    "REHAS Astrology offers holistic Vedic guidance, kundli analysis, compatibility insight, and spiritual coaching with clarity and grace.",
+  metadataBase: new URL("https://rehas.in"),
+  openGraph: {
+    title: "REHAS Astrology | Spiritual Guidance & Kundli Services",
+    description:
+      "Explore premium astrology services, kundli analysis, and personalized spiritual guidance from REHAS.",
+    url: "https://rehas.in",
+    siteName: "REHAS Astrology",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "REHAS Astrology | Spiritual Guidance",
+    description:
+      "Deep astrology services, kundli consultations, and mindful guidance to help you choose with confidence.",
+  },
 };
 
 export default function RootLayout({

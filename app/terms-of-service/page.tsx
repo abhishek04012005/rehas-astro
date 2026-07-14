@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { contactData } from "@/data/details";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export default function TermsOfServicePage() {
   return (
     <main style={{ minHeight: "100vh", padding: "7rem 1.5rem 3rem", maxWidth: "900px", margin: "0 auto" }}>
+      <div style={{ marginBottom: "2rem" }}>
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Terms of Service" }]} />
+      </div>
       <h1 style={{ fontSize: "2rem", color: "var(--primary)", marginBottom: "1rem" }}>Terms of Service</h1>
       <p style={{ lineHeight: 1.8, color: "var(--text-grey)" }}>
         By accessing or using the REHAS Astrology website, you agree to comply with these Terms of Service.

@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { Phone, Search, WhatsApp, Schedule, Place, Person } from "@mui/icons-material";
 import { supabase } from "@/lib/supabase";
 import { AdminNavbar } from "@/components/layout/AdminNavbar";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "./kundliDashboard.module.css";
 
 interface KundliSubmission {
@@ -143,6 +144,9 @@ export default function KundliDashboardPage() {
     <>
       <AdminNavbar />
       <main className={styles.dashboard}>
+        <div style={{ padding: "1.5rem", maxWidth: "1400px", margin: "0 auto" }}>
+          <Breadcrumbs items={[{ label: "Dashboard", href: "/admin/dashboard" }, { label: "Kundli Enquiries" }]} />
+        </div>
         <div className={styles.container}>
           <section className={styles.hero}>
             <h1>Kundli Dashboard</h1>

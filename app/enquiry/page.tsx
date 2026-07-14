@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import SectionHeader from "@/components/ui/SectionHeader";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "@/components/sections/contact.module.css";
 import servicesData from "@/data/services.json";
 import LineArtBackground from "@/components/LineArtBackground";
@@ -71,6 +72,10 @@ export default function EnquiryPage() {
   return (
     <div className={styles.contact}>
       <LineArtBackground variant="minimal" opacity={0.05} />
+
+      <div className={`shell`}>
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Service Enquiry" }]} />
+      </div>
 
       <section className={styles.hero}>
         <SectionHeader eyebrow="Enquiry" title="Quick Enquiry" subtitle="Send a quick enquiry and we'll get back to you." />

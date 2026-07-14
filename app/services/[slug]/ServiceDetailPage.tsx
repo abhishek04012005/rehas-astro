@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import LineArtBackground from "@/components/LineArtBackground";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "./serviceDetail.module.css";
 
 interface ServiceDetailPageProps {
   service: {
+    slug?: string;
     title: string;
     description: string;
     image: string;
@@ -83,10 +85,41 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
     buttonHref: "tel:+919517973153",
   };
 
+  const schemaPayload = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.description,
+    provider: {
+      "@type": "Organization",
+      name: "REHAS Astrology",
+      url: "https://rehas.in",
+    },
+    serviceType: service.title,
+    url: service.slug ? `https://rehas.in/services/${service.slug}` : "https://rehas.in/services",
+    image: service.image ? `https://rehas.in${service.image}` : undefined,
+    areaServed: {
+      "@type": "Country",
+      name: "India",
+    },
+  };
+
   return (
     <div className="pageShell">
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaPayload) }}
+      />
       <main>
+        <div className="shell">
+          <Breadcrumbs
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Services", href: "/services-list" },
+              { label: service.title },
+            ]}
+          />
+        </div>
         <section className={styles.hero}>
           <LineArtBackground variant="minimal" opacity={0.08} />
           <div className={`shell ${styles.heroContent}`}>

@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { InboxOutlined, Phone, Search, WhatsApp } from "@mui/icons-material";
 import { supabase } from "@/lib/supabase";
 import { AdminNavbar } from "@/components/layout/AdminNavbar";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "./enquiryDashboard.module.css";
 
 interface Enquiry {
@@ -145,6 +146,9 @@ export default function EnquiriesPage() {
     <>
       <AdminNavbar />
       <main className={styles.dashboard}>
+        <div style={{ padding: "1.5rem", maxWidth: "1400px", margin: "0 auto" }}>
+          <Breadcrumbs items={[{ label: "Dashboard", href: "/admin/dashboard" }, { label: "Service Enquiries" }]} />
+        </div>
       <div className={styles.container}>
         <section className={styles.hero}>
           <h1>Enquiry Dashboard</h1>
