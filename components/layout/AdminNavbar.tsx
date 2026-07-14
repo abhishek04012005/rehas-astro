@@ -14,6 +14,7 @@ const links = [
   { label: "Dashboard", href: "/admin/dashboard" },
   { label: "Contacts", href: "/admin/contacts" },
   { label: "Enquiries", href: "/admin/enquiries" },
+  { label: "Kundli", href: "/admin/kundli" },
   { label: "Logout", href: "/admin/logout" },
 ];
 
