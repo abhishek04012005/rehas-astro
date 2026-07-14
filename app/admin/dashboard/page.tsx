@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { AdminNavbar } from "@/components/layout/AdminNavbar";
 import styles from "./overviewDashboard.module.css";
 
 interface DashboardSummary {
@@ -127,7 +128,9 @@ export default function AdminDashboardPage() {
   };
 
   return (
-    <main className={styles.dashboard}>
+    <>
+      <AdminNavbar />
+      <main className={styles.dashboard}>
       <div className={styles.container}>
         <section className={styles.hero}>
           <h1>Admin Overview</h1>
@@ -185,5 +188,6 @@ export default function AdminDashboardPage() {
         ) : null}
       </div>
     </main>
+    </>
   );
 }

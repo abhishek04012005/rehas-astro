@@ -55,7 +55,7 @@ function base64urlDecode(value: string) {
 
 export async function findAdminUserByUsername(username: string) {
   const { data, error } = await supabaseAdmin
-    .from<AdminUser>("admin_users")
+    .from("admin_users")
     .select("id, username, password_hash, email, is_active")
     .eq("username", username)
     .limit(1)

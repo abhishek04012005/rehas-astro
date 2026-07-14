@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { InboxOutlined, Phone, Search, WhatsApp } from "@mui/icons-material";
 import { supabase } from "@/lib/supabase";
+import { AdminNavbar } from "@/components/layout/AdminNavbar";
 import styles from "./enquiryDashboard.module.css";
 
 interface Enquiry {
@@ -141,7 +142,9 @@ export default function EnquiriesPage() {
   };
 
   return (
-    <main className={styles.dashboard}>
+    <>
+      <AdminNavbar />
+      <main className={styles.dashboard}>
       <div className={styles.container}>
         <section className={styles.hero}>
           <h1>Enquiry Dashboard</h1>
@@ -285,5 +288,6 @@ export default function EnquiriesPage() {
         </section>
       </div>
     </main>
+    </>
   );
 }
