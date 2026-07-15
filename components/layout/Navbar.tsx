@@ -26,7 +26,7 @@ export function Navbar() {
       <div className={`shell ${styles.shellNav}`}>
         <Link href="/" className={styles.brand}>
           <span className={styles.brandMark}>
-            <Image src={LogoImage} alt="REHAS logo" width={120} height={80} />
+            <Image src={LogoImage} alt="REHAS logo" width={200} height={80} />
           </span>
         </Link>
 
