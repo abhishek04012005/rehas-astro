@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { AdminNavbar } from "@/components/layout/AdminNavbar";
+import { hasAdminSessionCookie } from "@/lib/adminClient";
 import styles from "./overviewDashboard.module.css";
 
 interface DashboardSummary {
@@ -40,6 +41,11 @@ export default function AdminDashboardPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!hasAdminSessionCookie()) {
+      router.replace("/admin");
+      return;
+    }
+
     const load = async () => {
       try {
         const res = await fetch("/api/admin/overview", { cache: "no-store" });

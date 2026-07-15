@@ -8,6 +8,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import LogoImage from "@/public/rehasastrology.svg";
 import Image from "next/image";
+import { hasAdminSessionCookie } from "@/lib/adminClient";
 import styles from "./AdminNavbar.module.css";
 
 const links = [
@@ -29,8 +30,7 @@ export function AdminNavbar() {
 
   if (!ready) return null;
 
-  const hasSession = typeof window !== "undefined" && Boolean(localStorage.getItem("adminSession"));
-  if (!hasSession) return null;
+  if (!hasAdminSessionCookie()) return null;
 
   return (
     <header className={styles.siteHeader}>
