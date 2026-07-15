@@ -5,9 +5,21 @@ import LineArtBackground from "@/components/LineArtBackground";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "./serviceDetail.module.css";
 
+interface ServiceSeoContent {
+  slug: string;
+  title: string;
+  description: string;
+  keywords: string[];
+  introTitle: string;
+  introText: string;
+  benefits: string[];
+  faqItems: Array<{ question: string; answer: string }>;
+}
+
 interface ServiceDetailPageProps {
   service: {
     slug?: string;
+    path?: string;
     title: string;
     description: string;
     image: string;
@@ -46,9 +58,28 @@ interface ServiceDetailPageProps {
   };
 }
 
+import serviceSeoData from "@/data/serviceSeo.json";
+
+const getServiceSeoContent = (slug?: string, path?: string): ServiceSeoContent => {
+  return (
+    serviceSeoData.find((item) => item.slug === slug && (item.path ?? "") === (path ?? "")) ??
+    serviceSeoData.find((item) => item.slug === slug && (item.path ?? "") === "") ?? {
+      slug: slug ?? "",
+      title: "Astrology Service",
+      description: "Explore astrology guidance tailored to your life path and spiritual growth.",
+      keywords: ["astrology service", "REHAS astrology"],
+      introTitle: "Get guidance for the next step in your life",
+      introText: "Our astrology services are designed to bring clarity, confidence, and meaningful direction for life decisions.",
+      benefits: ["Receive focused guidance", "Understand your timing", "Make calmer decisions"],
+      faqItems: [],
+    }
+  );
+};
+
 export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   const overviewPoints = service.highlights ?? [];
   const heroSummary = service.heroSummary ?? [];
+  const seoContent = getServiceSeoContent(service.slug, service.path);
   const heroBadge = service.heroBadge ?? "Deep Service Review";
   const overviewIntro = service.overviewIntro ?? {
     eyebrow: "What you will explore",
@@ -104,11 +135,28 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
     },
   };
 
+  const faqSchemaPayload = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: seoContent.faqItems.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <div className="pageShell">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaPayload) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaPayload) }}
       />
       <main>
         <div className="shell">
@@ -211,6 +259,35 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   </div>
                 </article>
               ))}
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.whySection}>
+          <div className="shell">
+            <div className={styles.whyGrid}>
+              <article className={styles.whyCard}>
+                <p className={styles.eyebrow}>Why this service matters</p>
+                <h2>{seoContent.introTitle}</h2>
+                <p>{seoContent.introText}</p>
+                <ul className={styles.benefitList}>
+                  {seoContent.benefits.map((benefit) => (
+                    <li key={benefit}>{benefit}</li>
+                  ))}
+                </ul>
+              </article>
+
+              <article className={styles.faqCard}>
+                <p className={styles.eyebrow}>Common questions</p>
+                <div className={styles.faqList}>
+                  {seoContent.faqItems.map((faq) => (
+                    <details key={faq.question} className={styles.faqItem}>
+                      <summary>{faq.question}</summary>
+                      <p>{faq.answer}</p>
+                    </details>
+                  ))}
+                </div>
+              </article>
             </div>
           </div>
         </section>

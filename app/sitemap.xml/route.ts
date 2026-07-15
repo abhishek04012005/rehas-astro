@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 import servicesData from "@/data/services.json";
+import serviceSeoData from "@/data/serviceSeo.json";
 import blogPosts from "@/data/blogPosts.json";
 
-const baseUrl = "https://rehas.in";
+const baseUrl = "https://astrology.rehas.in";
 const staticRoutes = [
   "",
   "about",
@@ -16,9 +17,13 @@ const staticRoutes = [
 ];
 
 export async function GET() {
+  const serviceSeoUrls = serviceSeoData
+    .filter((entry) => entry.slug)
+    .map((entry) => `services/${entry.slug}${entry.path ? `/${entry.path}` : ""}`);
+
   const serviceUrls = servicesData.map((service) => `/services/${service.slug}`);
   const blogUrls = blogPosts.map((post) => `/blog/${post.slug}`);
-  const urls = [...staticRoutes, ...serviceUrls, ...blogUrls];
+  const urls = [...staticRoutes, ...serviceUrls, ...serviceSeoUrls, ...blogUrls];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

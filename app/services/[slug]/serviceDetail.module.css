@@ -98,7 +98,8 @@
 .consultSection,
 .splitSection,
 .experienceSection,
-.detailsSection {
+.detailsSection,
+.whySection {
     padding: 2.2rem 0;
 }
 
@@ -225,6 +226,77 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+}
+
+.whyCard,
+.faqCard {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.97), rgba(250, 245, 252, 0.95));
+    border: 1px solid rgba(86, 0, 103, 0.12);
+    border-radius: 28px;
+    padding: 1.75rem;
+    box-shadow: 0 20px 42px rgba(23, 23, 23, 0.06);
+}
+
+.whyGrid {
+    display: grid;
+    gap: 1.35rem;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: start;
+}
+
+.whyCard h2 {
+    margin-bottom: 0.8rem;
+    font-size: clamp(1.5rem, 2.3vw, 2.1rem);
+}
+
+.whyCard p {
+    color: var(--text-grey);
+    line-height: 1.8;
+}
+
+.benefitList {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: grid;
+    gap: 0.7rem;
+}
+
+.benefitList li {
+    color: var(--text-light);
+    padding-left: 1rem;
+    position: relative;
+}
+
+.benefitList li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+}
+
+.faqList {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.faqItem {
+    border: 1px solid rgba(86, 0, 103, 0.1);
+    border-radius: 16px;
+    padding: 0.95rem 1rem;
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.faqItem summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.faqItem p {
+    margin-top: 0.7rem;
+    color: var(--text-grey);
+    line-height: 1.75;
 }
 
 .ctaCard h2,

@@ -1,0 +1,410 @@
+[
+  {
+    "slug": "vedic-astro",
+    "path": "",
+    "title": "Vedic Astrology Consultation",
+    "description": "Explore Vedic astrology for career, relationships, and life clarity with expert guidance rooted in birth chart analysis and spiritual insight.",
+    "keywords": [
+      "vedic astrology",
+      "vedic astrology consultation",
+      "birth chart reading",
+      "astrology guidance",
+      "career astrology"
+    ],
+    "introTitle": "Get practical guidance from the wisdom of your birth chart",
+    "introText": "Vedic astrology helps you understand your planetary strengths, life patterns, and key opportunities so you can make confident choices in love, career, and personal growth.",
+    "benefits": [
+      "Discover your natural strengths and personal growth path",
+      "Understand timing for important life decisions and transitions",
+      "Receive guidance for career, relationships, and emotional balance"
+    ],
+    "faqItems": [
+      {
+        "question": "What is Vedic astrology used for?",
+        "answer": "It is used to understand a person’s chart, life patterns, karmic themes, and timing for major decisions."
+      },
+      {
+        "question": "Can Vedic astrology help with career and relationships?",
+        "answer": "Yes. It offers insight into career direction, relationship patterns, emotional balance, and opportunities for growth."
+      }
+    ]
+  },
+  {
+    "slug": "vedic-astro",
+    "path": "when-i-get-job",
+    "title": "Vedic Astrology for Career and Job Growth",
+    "description": "Use Vedic astrology for career clarity, job opportunities, promotions, and smarter professional decisions with guidance rooted in your birth chart.",
+    "keywords": [
+      "vedic astrology for job",
+      "career astrology",
+      "job guidance astrology",
+      "astrology for career",
+      "professional growth astrology"
+    ],
+    "introTitle": "Find clarity for your career path with astrology guidance",
+    "introText": "When you are looking for a new opportunity, the right timing matters. Vedic astrology can show your career strengths, growth windows, and the best direction for your work life.",
+    "benefits": [
+      "Understand timing for job changes and promotions",
+      "See your strongest career strengths and opportunities",
+      "Receive guidance for confident professional decisions"
+    ],
+    "faqItems": [
+      {
+        "question": "Can astrology help with jobs and promotions?",
+        "answer": "Yes. It can highlight favorable periods, career strengths, and the kind of work that fits your natural ability."
+      }
+    ]
+  },
+  {
+    "slug": "vedic-astro",
+    "path": "when-i-get-married",
+    "title": "Vedic Astrology for Marriage and Relationship Decisions",
+    "description": "Explore Vedic astrology for marriage timing, relationship compatibility, and emotional clarity with guidance that supports lasting partnership decisions.",
+    "keywords": [
+      "vedic astrology for marriage",
+      "marriage astrology",
+      "relationship astrology",
+      "compatibility astrology",
+      "marriage guidance"
+    ],
+    "introTitle": "Get guidance for marriage and relationship clarity",
+    "introText": "Marriage decisions benefit from greater clarity, timing insight, and understanding of compatibility. Vedic astrology can support you in making thoughtful relationship choices.",
+    "benefits": [
+      "Understand relationship compatibility and timing",
+      "Gain clarity around emotional patterns and expectations",
+      "Make marriage decisions with confidence and calm"
+    ],
+    "faqItems": [
+      {
+        "question": "Can astrology help with marriage decisions?",
+        "answer": "Yes. It can guide you in understanding relationship compatibility, timing, and the emotional dynamics that matter most."
+      }
+    ]
+  },
+  {
+    "slug": "kundli-analysis",
+    "path": "",
+    "title": "Kundli Analysis",
+    "description": "Get a detailed kundli analysis for education, career, business, marriage, and life timing with clear Vedic guidance and practical insight.",
+    "keywords": [
+      "kundli analysis",
+      "vedic kundli reading",
+      "birth chart analysis",
+      "career astrology",
+      "marriage astrology"
+    ],
+    "introTitle": "Understand your life direction with a deeper kundli reading",
+    "introText": "A detailed kundli analysis helps you understand your strengths, challenges, and favorable timing across education, career, business, marriage, health, and wealth.",
+    "benefits": [
+      "Explore career alignment, business potential, and income growth",
+      "Understand marriage timing, relationship compatibility, and family dynamics",
+      "Gain clarity around health, housing, fortune, and major life transitions"
+    ],
+    "faqItems": [
+      {
+        "question": "What does kundli analysis cover?",
+        "answer": "It covers education, career, business, marriage, health, wealth, doshas, timing, and life events based on Vedic astrology principles."
+      },
+      {
+        "question": "Who should book a kundli analysis?",
+        "answer": "Anyone seeking clarity around career choices, marriage, finances, health, or major life decisions can benefit from a detailed kundli reading."
+      },
+      {
+        "question": "Is kundli analysis useful for business and finance?",
+        "answer": "Yes. It can highlight business strengths, favorable periods, financial growth, and risks that may affect long-term planning."
+      }
+    ]
+  },
+  {
+    "slug": "kundli-analysis",
+    "path": "when-i-get-job",
+    "title": "Kundli Analysis for Career and Job Clarity",
+    "description": "Use kundli analysis for career timing, job change decisions, work growth, and professional direction based on your birth chart.",
+    "keywords": [
+      "kundli analysis for job",
+      "career kundli",
+      "job astrology",
+      "professional astrology",
+      "career growth astrology"
+    ],
+    "introTitle": "Understand your career direction through kundli analysis",
+    "introText": "A kundli reading can show your natural strengths, the right work path, and the best timing for a major career move or professional shift.",
+    "benefits": [
+      "Understand career growth opportunities and timing",
+      "Learn where your professional strengths are strongest",
+      "Gain supportive guidance for job decisions"
+    ],
+    "faqItems": [
+      {
+        "question": "Can kundli analysis help with job decisions?",
+        "answer": "Yes. It can reveal career strengths, favorable periods, and the right professional direction for you."
+      }
+    ]
+  },
+  {
+    "slug": "kundli-analysis",
+    "path": "when-i-get-married",
+    "title": "Kundli Analysis for Marriage and Relationships",
+    "description": "Get kundli analysis for relationship compatibility, marriage timing, and emotional clarity with Vedic guidance tailored to your chart.",
+    "keywords": [
+      "kundli analysis for marriage",
+      "marriage kundli",
+      "relationship astrology",
+      "marriage compatibility astrology",
+      "relationship guidance"
+    ],
+    "introTitle": "Get deeper relationship insight through kundli analysis",
+    "introText": "Marriage and relationship decisions become clearer when you understand compatibility, timing, and emotional patterns through a kundli reading.",
+    "benefits": [
+      "Understand relationship compatibility and timing",
+      "Get insight into marriage patterns and emotional dynamics",
+      "Make relationship choices with greater confidence"
+    ],
+    "faqItems": [
+      {
+        "question": "Can kundli analysis help with marriage questions?",
+        "answer": "Yes. It can reveal relationship compatibility, timing, and the deeper patterns that shape long-term partnership."
+      }
+    ]
+  },
+  {
+    "slug": "kundali-milan",
+    "path": "",
+    "title": "Kundali Milan for Marriage Compatibility",
+    "description": "Use Kundali Milan to understand marriage compatibility, relationship harmony, and future planning with trusted Vedic astrology insight.",
+    "keywords": [
+      "kundali milan",
+      "marriage compatibility",
+      "vedic matchmaking",
+      "relationship astrology",
+      "compatibility analysis"
+    ],
+    "introTitle": "Choose a relationship path with better compatibility insight",
+    "introText": "Kundali Milan gives couples a clear view of emotional compatibility, family dynamics, and long-term relationship harmony through Vedic astrology.",
+    "benefits": [
+      "Understand compatibility for love, marriage, and family life",
+      "Identify strengths and challenges in the relationship pairing",
+      "Gain guidance for communication, timing, and shared future planning"
+    ],
+    "faqItems": [
+      {
+        "question": "What is Kundali Milan used for?",
+        "answer": "It is commonly used to assess marriage compatibility, relationship harmony, and shared life goals between two people."
+      },
+      {
+        "question": "Is it helpful before engagement or marriage?",
+        "answer": "Yes. Many people use Kundali Milan to understand compatibility and make wiser relationship decisions before committing."
+      }
+    ]
+  },
+  {
+    "slug": "shani-sade-sati",
+    "path": "",
+    "title": "Shani Sade Sati Guidance",
+    "description": "Learn how Shani Sade Sati affects career, finances, health, and personal growth with practical astrology guidance and remedies.",
+    "keywords": [
+      "shani sade sati",
+      "saturn transit",
+      "vedic astrology remedy",
+      "career guidance",
+      "astrology consultation"
+    ],
+    "introTitle": "Navigate life changes with clarity during Shani Sade Sati",
+    "introText": "Shani Sade Sati often brings difficult lessons and transformation, but it can also offer deeper awareness, patience, and constructive growth.",
+    "benefits": [
+      "Understand the timing and themes of Saturn's influence",
+      "Build resilience through practical guidance and awareness",
+      "Receive support for career, health, and personal transformation"
+    ],
+    "faqItems": [
+      {
+        "question": "What is Shani Sade Sati?",
+        "answer": "It is a major Saturn transit period that is often associated with challenges, maturity, responsibility, and personal growth."
+      },
+      {
+        "question": "Can astrology help during Shani Sade Sati?",
+        "answer": "Yes. Astrology can help you understand the timing, emotional themes, and practical steps to navigate the period better."
+      }
+    ]
+  },
+  {
+    "slug": "marriage-compatibility",
+    "path": "",
+    "title": "Marriage Compatibility Astrology",
+    "description": "Understand marriage compatibility, partner harmony, and family balance using Vedic matchmaking, horoscope matching, and personalized astrology insight.",
+    "keywords": [
+      "marriage compatibility",
+      "kundali matching",
+      "relationship astrology",
+      "vedic matchmaking",
+      "partner compatibility astrology"
+    ],
+    "introTitle": "Get clarity on marriage compatibility and relationship harmony",
+    "introText": "Marriage compatibility readings reveal emotional balance, family dynamics, and the timing of meaningful partnership decisions through proven Vedic methods.",
+    "benefits": [
+      "See how partner characteristics and family life align",
+      "Understand emotional, financial, and long-term compatibility",
+      "Plan marriage timing with greater confidence and harmony"
+    ],
+    "faqItems": [
+      {
+        "question": "How does marriage compatibility astrology work?",
+        "answer": "It uses horoscope matching, planetary compatibility, and traditional Vedic factors to assess the strength of a relationship and potential areas of difference."
+      },
+      {
+        "question": "Can astrology help choose the right marriage timing?",
+        "answer": "Yes. Astrology can identify favorable periods for commitment, clarify potential delays, and support stronger long-term planning for married life."
+      }
+    ]
+  },
+  {
+    "slug": "planetary-insights",
+    "path": "",
+    "title": "Planetary Insights & Transit Astrology",
+    "description": "Explore your planetary positions, current transits, Shani Sade Sati, and yearly horoscope guidance for better timing around career, money, travel, and relationships.",
+    "keywords": [
+      "planetary insights",
+      "transit astrology",
+      "horoscope predictions",
+      "current year horoscope",
+      "vedic astrology timing"
+    ],
+    "introTitle": "Decode your planetary chart and timing for better decisions",
+    "introText": "Planetary insights help you understand how current transits, house placements, and major astrological events influence your growth, choices, and opportunities.",
+    "benefits": [
+      "Recognize favorable periods for career, travel, and finances",
+      "Understand the impact of major transits like Shani Sade Sati",
+      "Receive practical guidance for the current year and next steps"
+    ],
+    "faqItems": [
+      {
+        "question": "What do planetary insights tell me?",
+        "answer": "They reveal how the positions of planets and current transits affect your work, relationships, health, and key life timing."
+      },
+      {
+        "question": "Is transit astrology useful for planning the year ahead?",
+        "answer": "Yes. Transit astrology highlights the best moments for action, the most supportive times for change, and the challenges to be aware of."
+      }
+    ]
+  },
+  {
+    "slug": "kundali-milan",
+    "path": "when-i-get-married",
+    "title": "Kundali Milan for Marriage Planning",
+    "description": "Use Kundali Milan marriage matching to evaluate partner harmony, dosha balance, and the best timing for engagement or wedding decisions.",
+    "keywords": [
+      "kundali milan marriage",
+      "marriage planning astrology",
+      "partner compatibility",
+      "kundali matching for marriage",
+      "vedic match compatibility"
+    ],
+    "introTitle": "Plan marriage with stronger compatibility insight",
+    "introText": "Kundali Milan reveals how your charts align for long-term harmony, family support, and the emotional timing of married life.",
+    "benefits": [
+      "Compare partner compatibility across traditional Vedic factors",
+      "Spot best marriage timing and potential challenges",
+      "Gain confidence in relationship decisions before commitment"
+    ],
+    "faqItems": [
+      {
+        "question": "What does Kundali Milan measure?",
+        "answer": "It measures compatibility using traditional factors like Ashta Koota, Nadi, and Dosha assessment to determine relational strength."
+      },
+      {
+        "question": "Can Kundali Milan help choose a wedding date?",
+        "answer": "Yes. It can suggest stronger marriage timing and highlight periods that support harmony and long-term stability."
+      }
+    ]
+  },
+  {
+    "slug": "marriage-compatibility",
+    "path": "when-i-get-married",
+    "title": "Marriage Compatibility Astrology for Relationship Timing",
+    "description": "Discover marriage compatibility, emotional balance, and the best relationship timing using horoscope matching and Vedic compatibility analysis.",
+    "keywords": [
+      "marriage compatibility astrology",
+      "relationship timing astrology",
+      "horoscope matching",
+      "vedic marriage guide",
+      "compatibility report"
+    ],
+    "introTitle": "Understand your relationship timing and compatibility",
+    "introText": "This compatibility reading helps you make better marriage decisions by clarifying emotional chemistry, family harmony, and long-term stability.",
+    "benefits": [
+      "Evaluate partner compatibility with trusted Vedic methods",
+      "Identify timing advantages and relationship strengths",
+      "Make marriage decisions with greater clarity and calm"
+    ],
+    "faqItems": [
+      {
+        "question": "What is horoscope matching?",
+        "answer": "Horoscope matching compares two birth charts to reveal emotional balance, family compatibility, and the likely long-term success of a marriage."
+      },
+      {
+        "question": "Does astrology show the best time to marry?",
+        "answer": "Yes. It can highlight favorable periods for marriage and indicate when both partners are aligned for commitment."
+      }
+    ]
+  },
+  {
+    "slug": "planetary-insights",
+    "path": "when-i-get-job",
+    "title": "Planetary Insights for Career and Job Timing",
+    "description": "Use planetary insight astrology to identify optimal job moves, career shifts, and the right timing for promotions based on your birth chart.",
+    "keywords": [
+      "career astrology",
+      "job timing astrology",
+      "planetary insights for job",
+      "career horoscope",
+      "vedic job guidance"
+    ],
+    "introTitle": "Find the best timing for your career decisions",
+    "introText": "Planetary insights show how your chart supports job changes, promotions, and professional growth through transit and house analysis.",
+    "benefits": [
+      "Find favorable periods for career advancement",
+      "Understand which planets support your professional goals",
+      "Make job decisions from a confident, astrology-informed perspective"
+    ],
+    "faqItems": [
+      {
+        "question": "Can astrology guide my job search?",
+        "answer": "Yes. It can reveal strong career windows, likely opportunities, and the timing that supports career progress."
+      },
+      {
+        "question": "Will planetary insights help with promotions?",
+        "answer": "Yes. They can highlight periods when your energy is aligned for growth, recognition, and advancement."
+      }
+    ]
+  },
+  {
+    "slug": "planetary-insights",
+    "path": "when-i-get-married",
+    "title": "Planetary Insights for Relationship and Marriage Timing",
+    "description": "Explore how planetary transits, Venus, Moon, and Ascendant timing support relationships, commitment, and marriage planning.",
+    "keywords": [
+      "relationship astrology",
+      "marriage timing astrology",
+      "planetary relationship insights",
+      "venus transit astrology",
+      "vedic marriage astrology"
+    ],
+    "introTitle": "See how planetary timing supports your relationship choices",
+    "introText": "Planetary insights can reveal ideal periods for commitment, help you understand emotional compatibility, and guide your marriage planning.",
+    "benefits": [
+      "Identify supportive relationship periods",
+      "Understand Venus, Moon, and Ascendant influences",
+      "Plan commitment decisions with astrology-backed clarity"
+    ],
+    "faqItems": [
+      {
+        "question": "How can planetary astrology support marriage timing?",
+        "answer": "It shows when key relationship planets are aligned, helping you choose more harmonious periods for commitment."
+      },
+      {
+        "question": "Does astrology help with relationship clarity?",
+        "answer": "Yes. It can clarify the emotional timing, compatibility factors, and transit energy around your partnership."
+      }
+    ]
+  }
+]
