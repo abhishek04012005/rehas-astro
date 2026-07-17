@@ -1,4 +1,3 @@
-import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
 import { getAdminSessionFromCookie } from "@/lib/adminAuth";
 
@@ -8,7 +7,7 @@ export default async function AdminDashboardLayout({ children }: { children: Rea
   const session = getAdminSessionFromCookie(token);
 
   if (!session) {
-    redirect("/admin");
+    return <>{children}</>;
   }
 
   return <>{children}</>;
