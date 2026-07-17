@@ -31,12 +31,6 @@ export default function KundliDashboardPage() {
   const [perPage, setPerPage] = useState(10);
 
   useEffect(() => {
-    const session = localStorage.getItem("adminSession");
-    if (!session) {
-      router.replace("/admin");
-      return;
-    }
-
     const load = async () => {
       try {
         const { data, error } = await supabase

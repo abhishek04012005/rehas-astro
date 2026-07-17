@@ -41,7 +41,11 @@ export default function AdminDashboardPage() {
       try {
         const res = await fetch("/api/admin/overview", { cache: "no-store" });
         if (!res.ok) {
-          throw new Error("Unable to load dashboard");
+          setSummary(null);
+          setContacts([]);
+          setEnquiries([]);
+          setKundli([]);
+          return;
         }
 
         const payload = await res.json();

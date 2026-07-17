@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,7 +8,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import LogoImage from "@/public/rehasastrology.svg";
 import Image from "next/image";
-import { hasAdminSessionCookie } from "@/lib/adminClient";
 import styles from "./AdminNavbar.module.css";
 
 const links = [
