@@ -150,34 +150,44 @@ export default function KundliPopup({ isOpen = true, onClose = () => {}, mode = 
                 value={form.phone}
                 onChange={handleChange}
                 required
-                placeholder="+919876543210 or 9876543210"
+                placeholder="+919876543210"
               />
             </div>
 
             <div className={styles.twoCol}>
               <div className={styles.formGroup}>
                 <label htmlFor="birth_date">Birth Date *</label>
-                <input
-                  id="birth_date"
-                  name="birth_date"
-                  type="date"
-                  value={form.birth_date}
-                  onChange={handleChange}
-                  max={new Date().toISOString().split('T')[0]}
-                  required
-                />
+                <div className={styles.placeholderWrapper}>
+                  <input
+                    id="birth_date"
+                    name="birth_date"
+                    type="date"
+                    value={form.birth_date}
+                    onChange={handleChange}
+                    max={new Date().toISOString().split('T')[0]}
+                    required
+                  />
+                  {!form.birth_date ? (
+                    <span className={styles.placeholderLabel}>Select date</span>
+                  ) : null}
+                </div>
               </div>
 
               <div className={styles.formGroup}>
                 <label htmlFor="birth_time">Birth Time *</label>
-                <input
-                  id="birth_time"
-                  name="birth_time"
-                  type="time"
-                  value={form.birth_time}
-                  onChange={handleChange}
-                  required
-                />
+                <div className={styles.placeholderWrapper}>
+                  <input
+                    id="birth_time"
+                    name="birth_time"
+                    type="time"
+                    value={form.birth_time}
+                    onChange={handleChange}
+                    required
+                  />
+                  {!form.birth_time ? (
+                    <span className={styles.placeholderLabel}>Select time</span>
+                  ) : null}
+                </div>
               </div>
             </div>
 

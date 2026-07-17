@@ -31,7 +31,7 @@
   place-items: center;
 }
 
-.logo{
+.logo {
   width: 8rem;
   height: auto;
 
@@ -171,4 +171,6 @@
   .mobileMenu {
     display: flex;
   }
+
+
 }

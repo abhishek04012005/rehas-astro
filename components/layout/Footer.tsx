@@ -4,7 +4,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import styles from "./Footer.module.css";
-import LogoImage from "@/public/rehasastrology.svg";
+import LogoImage from "@/public/rehasastrology.png";
 
 const columns = [
   {
