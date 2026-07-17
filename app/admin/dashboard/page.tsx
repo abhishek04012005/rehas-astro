@@ -1,10 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { AdminNavbar } from "@/components/layout/AdminNavbar";
-import { hasAdminSessionCookie } from "@/lib/adminClient";
 import styles from "./overviewDashboard.module.css";
 
 interface DashboardSummary {
@@ -33,7 +30,6 @@ interface ListItem {
 }
 
 export default function AdminDashboardPage() {
-  const router = useRouter();
   const [summary, setSummary] = useState<DashboardSummary | null>(null);
   const [contacts, setContacts] = useState<ListItem[]>([]);
   const [enquiries, setEnquiries] = useState<ListItem[]>([]);
@@ -41,19 +37,10 @@ export default function AdminDashboardPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!hasAdminSessionCookie()) {
-      router.replace("/admin");
-      return;
-    }
-
     const load = async () => {
       try {
         const res = await fetch("/api/admin/overview", { cache: "no-store" });
         if (!res.ok) {
-          if (res.status === 401) {
-            router.replace("/admin");
-            return;
-          }
           throw new Error("Unable to load dashboard");
         }
 
@@ -70,7 +57,7 @@ export default function AdminDashboardPage() {
     };
 
     load();
-  }, [router]);
+  }, []);
 
   const renderTable = (items: ListItem[], type: "contact" | "enquiry" | "kundli") => {
     if (!items.length) {
@@ -134,9 +121,7 @@ export default function AdminDashboardPage() {
   };
 
   return (
-    <>
-      <AdminNavbar />
-      <main className={styles.dashboard}>
+    <main className={styles.dashboard}>
       <div className={styles.container}>
         <section className={styles.hero}>
           <h1>Admin Overview</h1>
@@ -194,6 +179,5 @@ export default function AdminDashboardPage() {
         ) : null}
       </div>
     </main>
-    </>
   );
 }

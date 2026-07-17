@@ -21,15 +21,30 @@
   color: white;
 }
 
+.logoWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.logoImage {
+  width: auto;
+  height: auto;
+  max-width: 140px;
+}
+
 .cardHeader h1 {
   margin: 0 0 0.5rem;
   font-size: clamp(2rem, 2.5vw, 2.5rem);
+  text-align: center;
 }
 
 .cardHeader p {
   margin: 0;
   color: rgba(255, 255, 255, 0.88);
   line-height: 1.65;
+  text-align: center;
 }
 
 .cardBody {

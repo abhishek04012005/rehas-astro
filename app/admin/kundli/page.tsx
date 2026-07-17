@@ -2,9 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Phone, Search, WhatsApp, Schedule, Place, Person } from "@mui/icons-material";
+import { Phone, Search, WhatsApp, Schedule, Place, Person, CalendarToday } from "@mui/icons-material";
 import { supabase } from "@/lib/supabase";
-import { AdminNavbar } from "@/components/layout/AdminNavbar";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "./kundliDashboard.module.css";
 
@@ -141,8 +140,6 @@ export default function KundliDashboardPage() {
   };
 
   return (
-    <>
-      <AdminNavbar />
       <main className={styles.dashboard}>
         <div style={{ padding: "1.5rem", maxWidth: "1400px", margin: "0 auto" }}>
           <Breadcrumbs items={[{ label: "Dashboard", href: "/admin/dashboard" }, { label: "Kundli Enquiries" }]} />
@@ -225,7 +222,7 @@ export default function KundliDashboardPage() {
                           </td>
                           <td>
                             <div className={styles.detailCell}>
-                              <Schedule className={styles.detailIcon} />
+                              <CalendarToday className={styles.detailIcon} />
                               {item.birth_date}
                             </div>
                           </td>
@@ -293,6 +290,5 @@ export default function KundliDashboardPage() {
           </section>
         </div>
       </main>
-    </>
   );
 }

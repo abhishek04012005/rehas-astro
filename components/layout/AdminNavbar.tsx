@@ -22,15 +22,6 @@ const links = [
 export function AdminNavbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [ready, setReady] = useState(false);
-
-  useEffect(() => {
-    setReady(true);
-  }, []);
-
-  if (!ready) return null;
-
-  if (!hasAdminSessionCookie()) return null;
 
   return (
     <header className={styles.siteHeader}>

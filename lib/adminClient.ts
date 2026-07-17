@@ -3,8 +3,15 @@ export function hasAdminSessionCookie() {
     return false;
   }
 
-  return document.cookie
+  const cookie = document.cookie
     .split(";")
     .map((item) => item.trim())
-    .some((item) => item.startsWith("rehas_admin_session="));
+    .find((item) => item.startsWith("rehas_admin_session="));
+
+  if (!cookie) {
+    return false;
+  }
+
+  const value = cookie.split("=")[1];
+  return Boolean(value && value.length > 0);
 }

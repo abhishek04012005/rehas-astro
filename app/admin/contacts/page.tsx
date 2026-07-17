@@ -4,7 +4,6 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { MessageOutlined, Phone, Search, WhatsApp } from "@mui/icons-material";
 import { supabase } from "@/lib/supabase";
-import { AdminNavbar } from "@/components/layout/AdminNavbar";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "./contactDashboard.module.css";
 
@@ -138,8 +137,6 @@ export default function ContactsPage() {
   };
 
   return (
-    <>
-      <AdminNavbar />
       <main className={styles.dashboard}>
         <div style={{ padding: "1.5rem", maxWidth: "1400px", margin: "0 auto" }}>
           <Breadcrumbs items={[{ label: "Dashboard", href: "/admin/dashboard" }, { label: "Contacts" }]} />
@@ -279,6 +276,5 @@ export default function ContactsPage() {
           </section>
         </div>
       </main>
-    </>
   );
 }

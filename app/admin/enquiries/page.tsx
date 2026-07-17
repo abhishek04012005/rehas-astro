@@ -4,7 +4,6 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { InboxOutlined, Phone, Search, WhatsApp } from "@mui/icons-material";
 import { supabase } from "@/lib/supabase";
-import { AdminNavbar } from "@/components/layout/AdminNavbar";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import styles from "./enquiryDashboard.module.css";
 
@@ -143,8 +142,6 @@ export default function EnquiriesPage() {
   };
 
   return (
-    <>
-      <AdminNavbar />
       <main className={styles.dashboard}>
         <div style={{ padding: "1.5rem", maxWidth: "1400px", margin: "0 auto" }}>
           <Breadcrumbs items={[{ label: "Dashboard", href: "/admin/dashboard" }, { label: "Service Enquiries" }]} />
@@ -292,6 +289,5 @@ export default function EnquiriesPage() {
         </section>
       </div>
     </main>
-    </>
   );
 }

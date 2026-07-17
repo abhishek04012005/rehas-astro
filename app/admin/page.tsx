@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import SectionHeader from "@/components/ui/SectionHeader";
+import LogoImage from "@/public/rehasastrology.svg";
 import styles from "./AdminLoginPage.module.css";
 
 export default function AdminLoginPage() {
@@ -30,8 +32,16 @@ export default function AdminLoginPage() {
         throw new Error(payload?.error || "Invalid credentials");
       }
 
-      router.refresh();
-      router.push("/admin/dashboard");
+      const payload = await res.json().catch(() => ({}));
+      if (payload?.data?.username) {
+        const setCookie = res.headers.get("set-cookie") ?? "";
+        const cookieValue = setCookie.split(";")[0];
+        if (cookieValue) {
+          document.cookie = cookieValue;
+        }
+      }
+
+      window.location.assign("/admin/dashboard");
     } catch (err: any) {
       setError(err?.message || "Login failed");
     } finally {
@@ -43,6 +53,9 @@ export default function AdminLoginPage() {
     <div className={styles.adminLogin}>
       <div className={styles.card}>
         <div className={styles.cardHeader}>
+          <div className={styles.logoWrap}>
+            <Image src={LogoImage} alt="REHAS Astrology logo" width={140} height={90} className={styles.logoImage} />
+          </div>
           <h1>Admin Access</h1>
           <p>Secure sign in for the REHAS admin portal. Enter your username and password to continue.</p>
         </div>
